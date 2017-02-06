@@ -1,4 +1,3 @@
-微信小程序教程
+微信小程序入门教程
 
-啊
-
+预览地址:[http://weapp.520wcf.com/](http://weapp.520wcf.com/)
