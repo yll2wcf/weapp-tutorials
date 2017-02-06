@@ -9,5 +9,5 @@
 * [第六章 API介绍](Chapter6/chapter6.md)
 * [第七章 复杂的控件](Chapter7/chapter7.md)
 * [第八章 案例](Chapter8/chapter8.md)
-* [第九章 案例](Chapter9/chapter9.md)
+* [第九章 学习资料整理](Chapter9/chapter9.md)
 
