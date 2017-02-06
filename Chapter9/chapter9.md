@@ -6,3 +6,16 @@
 3. [CSS文档](http://www.phpstudy.net/css3/)
 
 4. 视频链接: https://pan.baidu.com/s/1c2eN1za 密码: wgcb
+
+
+```
+
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/list_item_bg_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/list_item_bg_normal"></item>
+
+</selector>
+
+```
