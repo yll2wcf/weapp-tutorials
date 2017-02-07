@@ -119,4 +119,102 @@ tabbar:底部导航栏
 
 中间内容部分根据返回值是否含有videouri/voiceuri来改变hidden属性
 
+主页面使用swiper实现顶部导航
+
+每个swiper-item加载item模板
+
+```
+<swiper-item>
+    <scroll-view class="scrollview" scroll-y="true" bindscrolltolower="loadMoreData" bindscrolltoupper="refreshData" scroll-top="{{scrollTop.scroll_top}}" bindscroll="scrollTopFun">
+      <view style="height:12rpx;background-color:#eaeaea"></view>
+      <view class="item-view" wx:for="{{allDataList}}" wx:for-item="item">
+        <navigator url="detail?id={{item.id}}">
+          <template is="mainTabCell" data="{{item}}" />
+        </navigator>
+      </view>
+      <view style="height:12rpx;background-color:#eaeaea"></view>
+    </scroll-view>
+  </swiper-item>
+```
+
+添加向上图片用来快速返回顶部
+
+```
+<image src="../../images/index/uparrow.png" style="position: absolute; bottom: 50rpx; right: 30rpx; width: 120rpx; height: 120rpx; border-radius:50%; overflow:hidden;" wx:if="{{scrollTop.goTop_show}}" catchtap="goTopFun">
+</image>
+```
+
+向下滑动切超过100高度才显示向上图片
+
+```
+scrollTopFun:function(e){
+    if(e.detail.scrollTop<100){
+      this.setData({
+        'scrollTop.goTop_show':false,
+        'scrollTop.top_position':e.detail.scrollTop
+      })
+    }else if(e.detail.scrollTop<this.data.scrollTop.top_position){
+      this.setData({
+        'scrollTop.goTop_show':true,
+        'scrollTop.top_position':e.detail.scrollTop
+      });
+    }else{
+      this.setData({
+        'scrollTop.goTop_show':false,
+        'scrollTop.top_position':e.detail.scrollTop
+      });
+    }
+  },
+  goTopFun:function(e){
+    var _top=this.data.scrollTop.scroll_top;
+    if(_top==1){
+      _top=0;
+    }else{
+      _top=1;
+    }
+    this.setData({
+      'scrollTop.scroll_top':_top
+    });
+  },
+```
+根据顶部导航栏选择加载数据
+
+```
+  setNewDataWithRes: function (res, target) {
+    switch (types[dataType]) {
+      case DATATYPE.ALLDATATYPE:
+        allMaxtime = res.data.info.maxtime;
+        target.setData({
+          allDataList: res.data.list
+        });
+        break;
+      case DATATYPE.VIDEODATATYPE:
+        videoMaxtime = res.data.info.maxtime;
+        target.setData({
+          videoDataList: res.data.list
+        });
+        break;
+      case DATATYPE.PICTUREDATATYPE:
+        pictureMaxtime = res.data.info.maxtime;
+        target.setData({
+          pictureDataList: res.data.list
+        });
+        break;
+      case DATATYPE.TEXTDATATYPE:
+        textMaxtime = res.data.info.maxtime;
+        target.setData({
+          textDataList: res.data.list
+        });
+        break;
+      case DATATYPE.VOICEDATATYPE:
+        voiceMaxtime = res.data.info.maxtime;
+        target.setData({
+          voiceDataList: res.data.list
+        });
+        break;
+      default:
+        break;
+    }
+  },
+  ```
 
