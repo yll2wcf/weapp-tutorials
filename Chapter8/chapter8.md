@@ -248,4 +248,87 @@ scrollTopFun:function(e){
     ```
   
   
+### 仿QQ音乐
+
+项目结构
+
+![](/assets/20170208155947.png)
+
+resources为项目所用图片资源,services是网络请求,utils工具类
+
+例如search.js为搜索用请求
+
+```
+(function (exports) {
+
+    exports.getHotSearchKeys = function (callback) {
+        var data = {
+            g_tk: 5381,
+            uin: 0,
+            format: 'json',
+            inCharset: 'utf-8',
+            outCharset: 'utf-8',
+            notice: 0,
+            platform: 'h5',
+            needNewCode: 1,
+            _: Date.now()
+        };
+        wx.request({
+            url: 'http://c.y.qq.com/splcloud/fcgi-bin/gethotkey.fcg',
+            data: data,
+            header: {
+                'Content-Type': 'application/json'
+            },
+            success: function (res) {
+                if (res.statusCode == 200) {
+                    callback(res.data)
+                } else {
+
+                }
+            }
+        });
+    };
+
+}(module.exports));
+```
+这种写法与先定义function，最后用module.exports输出一样
+
+程序主页
+
+![](/assets/20170208160610.png)![](/assets/20170208171808.png)![](/assets/20170208171826.png)
+
+推荐页面
+
+```
+<view hidden="{{mainView != 1}}">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{slider}}"  wx:key="unique">
+      <swiper-item data-id="{{item.id}}" data-url="{{item.linkUrl}}">
+        <image src="{{item.picUrl}}" style="height:100%" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="channel">
+    <text class="channel-title">电台</text>
+    <view class="radio-list" >
+      <block wx:for="{{radioList}}"  wx:key="unique">
+        <view class="radio-item" data-id="{{item.radioid}}" data-ftitle="{{item.Ftitle}}" bindtap="radioTap">
+          <image class="radio-img" mode="aspectFit" style="height:167.5px;" src="{{item.picUrl}}"/>
+          <text class="radio-text">{{item.Ftitle}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="channel">
+    <text class="channel-title">热门歌曲</text>
+    <view class="radio-list">
+      <view class="radio-item" wx:for="{{songList}}"  wx:key="unique" data-id="{{item.id}}" data-imgsrc="{{item.picUrl}}" bindtap="hotMusicTap">
+        <image class="radio-img" mode="aspectFit" style="height:167.5px;" src="{{item.picUrl}}"/>
+        <text class="radio-text">{{item.songListDesc}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+```
+这里依靠mainView的值切换页面,点击上方标签会更改mainView的值
 
