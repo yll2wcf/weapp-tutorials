@@ -217,4 +217,35 @@ scrollTopFun:function(e){
     }
   },
   ```
+  
+  每个item添加跳转到评论页的navigator并传入id
+  ```
+  <navigator url="detail?id={{item.id}}">
+  ```
+  评论页与主页面类似,commentCell为item的模板,detail页面里使用这个模板,实现下拉加载更多功能
+  
+  ```
+  onReachBottom: function () {
+        util.showLoading();
+        var that = this;
+        var parameters = "a=dataList&c=comment&data_id=" + data_id + "&page=" + (page + 1) + "&lastcid=" + lastcid;
+        util.request(parameters, function (res) {
+            if (res.data.data) {
+                page += 1;
+                that.setData({
+                    dataList: that.data.dataList.concat(res.data.data)
+                });
+                lastcid = res.data.data[res.data.data.length - 1].id;
+                setTimeout(function () {
+                    util.hideToast();
+                    wx.stopPullDownRefresh();
+                }, 1000);
+            } else {
+                util.showSuccess("NO MORE...", 300);
+            }
+        });
+    }
+    ```
+  
+  
 
