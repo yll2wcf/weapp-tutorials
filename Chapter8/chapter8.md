@@ -330,9 +330,32 @@ resources为项目所用图片资源,services是网络请求,utils工具类
   </view>
 </view>
 ```
-这里依靠mainView的值切换页面,点击上方标签会更改mainView的值
+这里依靠mainView的值切换页面，点击上方标签会更改mainView的值,使三个页面中的两个隐藏，显示需要的那个。
 
-注意wx:key="unique"这个属性,官方给的解释是，如果列表中项目的位置会动态改变或者有新的项目添加到列表中，并且希望列表中的项目保持自己的特征和状态,需要使用 wx:key 来指定列表中项目的唯一的标识符。
+注意wx:key="unique"这个属性,官方给的解释是，如果列表中项目的位置会动态改变或者有新的项目添加到列表中，并且希望列表中的项目保持自己的特征和状态，需要使用 wx:key 来指定列表中项目的唯一的标识符。
 
-试了一下,例如列表里每一项带有带有switch,如果不使用key这个属性,在移动或添加新列表项后,这个状态不会跟着改变。
+例如列表里每一项带有带有switch，如果不使用key这个属性，在移动或添加新列表项后，这个状态不会跟着改变。就是说假如列表第二项的switch值为true，当其变成列表的第三项时，第三项的switch不会变为true，反而改变后的第二项会保留true的状态，大多数情况下这都是错误的。
+
+排行榜页面
+
+```
+<view class="top-view" hidden="{{mainView != 2}}">
+  <view class="top-item" wx:for="{{topList}}" wx:key="unique" data-id="{{item.id}}" bindtap="topListTap">
+    <image class="top-item-img" mode="aspectFit" src="{{item.picUrl}}"/>
+    <view class="top-item-info">
+      <view class="top-item-info-inner">
+        <text class="top-item-title">{{item.topTitle}}</text>
+        <text class="top-item-text" wx:for="{{item.songList}}"  wx:key="unique">{{index+1}}: {{item.songname}}-{{item.singername}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+```
+比较简单的列表格式，由于每一项UI不复杂就没有使用模板。
+
+搜索页
+
+```
+
+```
 
