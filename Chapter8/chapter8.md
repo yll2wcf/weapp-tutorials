@@ -356,6 +356,64 @@ resources为项目所用图片资源,services是网络请求,utils工具类
 搜索页
 
 ```
+<!--搜索-->
+<view hidden="{{mainView != 3}}">
+  <view class="search-bar">
+    <view class="search-input-warp">
+      <form bindsubmit="searchSubmit">
+        <label class="search-input-icon"></label>
+        <input type="text" class="search-input" bindfocus="bindFocus" name="search" value="{{searchKey}}" bindinput="bindKeyInput" placeholder="搜索歌曲、歌单、专辑" placeholder-class="search-input-placeholder" bindblur="bindBlur" />
+        <view class="search-cancel" bindtap="searchOk">确定</view>
+      </form>
+    </view>
+  </view>
 
+  <!-- 历史搜索记录 -->
+  <view class="search-hi" wx:if="{{showSearchPanel == 2}}">
+    <block wx:if="{{historySearchs.length > 0}}">
+      <view class="search-hi-item" wx:for="{{historySearchs}}" wx:key="unique">
+        <view class="hi-icon"></view>
+        <text class="hi-text" data-key="{{item}}" bindtap="historysearchTap">{{item}}</text>
+        <view class="hi-close" data-index="{{index}}" bindtap="delHistoryItem"></view>
+      </view>
+      <view class="clear-serach" bindtap="clearHistorySearchs">清除搜索记录</view>
+    </block>
+  </view>
+  <!-- 搜索结果 -->
+  <view class="ssong-list" wx:if="{{showSearchPanel == 3}}">
+    <block wx:if="{{zhida.type == 3}}">
+      <view class="ssong-item" data-data="{{zhida}}" data-id="{{zhida.albummid}}" bindtap="zhidaTap">
+        <image class="ss-icon" mode="aspectFit" src="http://y.gtimg.cn/music/photo_new/T002R68x68M000{{zhida.albummid}}.jpg?max_age=2592000"></image>
+        <view class="ss-text">
+          <text class="ss-title">{{zhida.albumname}}</text>
+          <text class="ss-sub-title">{{zhida.singername}}</text>
+        </view>
+      </view>
+    </block>
+    <view class="ssong-item" wx:for="{{searchSongs}}" wx:key="unique" data-index="{{index}}" bindtap="musuicPlay">
+      <image class="ss-icon" mode="aspectFit" src="../../resources/images/song_icon.png"></image>
+      <view class="ss-text">
+        <text class="ss-title">{{item.songname}}</text>
+        <text class="ss-sub-title">
+          <block wx:for="{{item.singer}}">{{item.name}}</block>
+        </text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 热门搜索 -->
+  <view class="quick-search" wx:if="{{showSearchPanel == 1}}">
+    <view class="quick-search-title">
+      <text>热门搜索</text>
+    </view>
+    <view class="quick-search-bd">
+      <text class="quick-search-item-red" data-url="{{special.url}}" data-key="{{special.key}}">{{special.key}}</text>
+      <text class="quick-search-item" wx:for="{{hotkeys}}" wx:key="unique" data-n="{{item.n}}" bindtap="hotKeysTap" data-key="{{item.k}}">{{item.k}}</text>
+    </view>
+  </view>
+</view>
 ```
+搜索页主要由4部分组成。
+
+最上方为输入框以及确定按钮
 
