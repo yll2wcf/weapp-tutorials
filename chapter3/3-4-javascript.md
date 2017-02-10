@@ -1,0 +1,1 @@
+#4.JavaScript标准对象
