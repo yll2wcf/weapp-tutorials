@@ -12,6 +12,7 @@
 * [第五章 小程序开发基础](chapter5.md)
 * [第六章 flexBox布局](chapter6.md)
 * [第七章 组件的开发应用](chapter7.md)
+  * [7-1 视图容器组件](chapter7/7-1.md)
 * [第八章 API接口](chapter8.md)
 * [第九章 控件进阶](chapter9.md)
 * [第十章 综合案例](chapter10.md)
