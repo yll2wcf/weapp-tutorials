@@ -1,6 +1,13 @@
 # 1.JavaScript简介
 
 
+
+```
+var a
+
+```
+
+
 >要了解JavaScript，我们首先要回顾一下JavaScript的诞生。
 
 在上个世纪的1995年，当时的网景公司正凭借其Navigator浏览器成为Web时代开启时最著名的第一代互联网公司。
