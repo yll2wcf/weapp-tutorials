@@ -2,13 +2,13 @@
 
 * [Introduction](README.md)
 * [第一章 小程序介绍](chapter1.md)
-  * 1-1 小程序是什么？
-  * 1-2 小程序与订阅号、服务号的区别
-  * 1-3 小程序的前景
-  * 1-4 如何创建一个小程序
-  * 1-5 编辑器的使用
-  * 1-6 运行一个小程序
-  * 本章小结
+  * [1-1 小程序是什么？](chapter1/1-1.md)
+  * [1-2 小程序与订阅号、服务号的区别](chapter1/1-2.md)
+  * [1-3 小程序的前景](chapter1/1-3.md)
+  * [1-4 如何创建一个小程序](chapter1/1-4.md)
+  * [1-5 编辑器的使用](chapter1/1-5.md)
+  * [1-6 运行一个小程序](chapter1/1-6.md)
+  * [本章小结](chapter1/.md)
 * [第二章 体验小程序](chapter2.md)
 * [第三章 JavaScript语法](chapter3.md)
   * [3-1 JavaScript简介](chapter3/3-1-javascript.md)
