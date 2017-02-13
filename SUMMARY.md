@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [第一章 小程序介绍](chapter1.md)
+  * 1-1 小程序是什么？
 * [第二章 体验小程序](chapter2.md)
 * [第三章 JavaScript语法](chapter3.md)
   * [3-1 JavaScript简介](chapter3/3-1-javascript.md)
