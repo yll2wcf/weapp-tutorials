@@ -8,7 +8,7 @@
   * [1-4 如何创建一个小程序](chapter1/1-4.md)
   * [1-5 编辑器的使用](chapter1/1-5.md)
   * [1-6 运行一个小程序](chapter1/1-6.md)
-  * [本章小结](chapter1/1-7.md)
+  * [本章小结](chapter1/end.md)
 * [第二章 体验小程序](chapter2.md)
 * [第三章 JavaScript语法](chapter3.md)
   * [3-1 JavaScript简介](chapter3/3-1-javascript.md)
