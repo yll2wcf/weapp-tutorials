@@ -25,16 +25,16 @@
 </view>
 ```
 ```
-.tab-item {
-  float: left;
-  width: 33.333333%;
-  height: 43px;
-  font-size: 16px;
-  text-align: center;
+tab-item {
+    float:left;
+    width:33.333333%;
+    height:86rpx;
+    font-size:32rpx;
+    text-align:center;
 }
 .tab-item-selected {
-  color: #31c27c;
-  border-bottom: 2px solid #31c27c;
+    color:#31c27c;
+    border-bottom:4rpx solid #31c27c;
 }
 ```
 
