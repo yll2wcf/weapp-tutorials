@@ -14,7 +14,7 @@
 * [第三章 JavaScript语法](chapter3.md)
   * [3-1 JavaScript简介](chapter3/3-1-javascript.md)
   * [3-2 JavaScript语法入门](chapter3/3-2.md)
-    * [3-2-1 基础语法](chapter3/3-2/3-2-1.md)
+    * [3-2-1 语句和语句块](chapter3/3-2/3-2-1.md)
     * [3-2-2 注释](chapter3/3-2/3-2-2.md)
     * [3-2-3 数据类型](chapter3/3-2/3-2-3.md)
     * [3-2-4 变量](chapter3/3-2/3-2-4.md)
