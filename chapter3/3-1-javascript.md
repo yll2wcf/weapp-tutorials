@@ -1,4 +1,4 @@
-# 1.JavaScript简介
+# 3.1 JavaScript简介
 
 
 >要了解JavaScript，我们首先要回顾一下JavaScript的诞生。
