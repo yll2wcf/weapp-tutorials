@@ -92,7 +92,7 @@ wxss中：
 
 ![](/assets/图7-2 scroll-view组件演示.png)
 
-注意:
+**注意:**
 
 * 请勿在 scroll-view 中使用 textarea、map、canvas、video 组件
 * scroll-into-view 的优先级高于 scroll-top
