@@ -76,12 +76,57 @@ arr.slice(0, 3);
 // 从索引3开始到结束: ['D', 'E', 'F', 'G']
 arr.slice(3);
 ```
-注意到slice()的起止参数包括开始索引，不包括结束索引。
+注意到`slice()`的起止参数包括开始索引，不包括结束索引。
 
 如果不给slice()传递任何参数，它就会从头到尾截取所有元素。利用这一点，我们可以很容易地复制一个数组：
 ```
 var arr = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
 var aCopy = arr.slice();
 aCopy; // ['A', 'B', 'C', 'D', 'E', 'F', 'G']
-aCopy === arr; // false
+```
+####push()和pop()
+`push()`向数组的末尾添加若干元素，`pop()`则把数组的最后一个元素删除掉：
+```
+var arr = [1, 2];
+arr.push('A', 'B'); // 返回Array新的长度: 4
+arr; // [1, 2, 'A', 'B']
+arr.pop(); // pop()返回'B'
+arr; // [1, 2, 'A']
+arr.pop(); arr.pop(); arr.pop(); // 连续pop 3次
+arr; // []
+arr.pop(); // 空数组继续pop不会报错，而是返回undefined
+arr; // []
+```
+
+#### unshift()和shift()
+
+如果要往数组的头部添加若干元素，使用`unshift()`方法，`shift()`方法则把Array的第一个元素删掉：
+
+```
+var arr = [1, 2];
+arr.unshift('A', 'B'); // 返回Array新的长度: 4
+arr; // ['A', 'B', 1, 2]
+arr.shift(); // 'A'
+arr; // ['B', 1, 2]
+arr.shift(); arr.shift(); arr.shift(); // 连续shift 3次
+arr; // []
+arr.shift(); // 空数组继续shift不会报错，而是返回undefined
+arr; // []
+```
+
+####sort()
+`sort()`可以对当前数组进行排序，它会直接修改当前数组的元素位置，直接调用时，按照默认顺序排序：
+```
+var arr = ['B', 'C', 'A'];
+arr.sort();
+arr; // ['A', 'B', 'C']
+```
+如果想按照自己指定的方式排序,需要借助函数，后面介绍函数的时候再给大家补充。
+
+####reverse()
+reverse()把整个Array的元素给掉个个，也就是反转：
+```
+var arr = ['one', 'two', 'three'];
+arr.reverse(); 
+arr; // ['three', 'two', 'one']
 ```
