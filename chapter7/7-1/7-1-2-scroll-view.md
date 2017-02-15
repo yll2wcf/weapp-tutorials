@@ -3,7 +3,7 @@
 scroll-view组件，它用来定义一个可滚动的视图区域，相当于ios开发中的UIScrollView。里面的内容如果超过这个区域的宽或高时，就会出现滚动条。  
 scroll-view包含的属性：
 
-| 属性名 | 类型 | 默认值 | 注释 |
+| 属性名 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
 | scroll-x | Boolean | false | 允许横向滚动 |
 | scroll-y | Boolean | false | 允许纵向滚动 |
@@ -93,8 +93,12 @@ wxss中：
 ![](/assets/图7-2 scroll-view组件演示.png)
 
 注意:
-- 请勿在 scroll-view 中使用 textarea、map、canvas、video 组件
-- scroll-into-view 的优先级高于 scroll-top
-- 在滚动 scroll-view 时会阻止页面回弹，所以在 scroll-view 中滚动，是无法触发 onPullDownRefresht
-- 若要使用下拉刷新，请使用页面的滚动，而不是 scroll-view ，这样也能通过点击顶部状态栏回到页面顶部
+
+* 请勿在 scroll-view 中使用 textarea、map、canvas、video 组件
+* scroll-into-view 的优先级高于 scroll-top
+* 在滚动 scroll-view 时会阻止页面回弹，所以在 scroll-view 中滚动，是无法触发 onPullDownRefresh
+  t
+* 若要使用下拉刷新，请使用页面的滚动，而不是 scroll-view ，这样也能通过点击顶部状态栏回到页面顶部
+
+
 
