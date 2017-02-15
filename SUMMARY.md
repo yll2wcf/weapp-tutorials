@@ -21,7 +21,7 @@
       * [字符串](chapter3/3-2/3-2-3/string.md)
       * [布尔值](chapter3/3-2/3-2-3/bool.md)
       * [null和undefined](chapter3/3-2/3-2-3/nullundefined.md)
-      * 数组
+      * [数组](chapter3/3-2/3-2-3/array.md)
       * 对象
     * [3-2-4 变量](chapter3/3-2/3-2-4.md)
     * [3-2-5 运算符](chapter3/3-2/3-2-5.md)
