@@ -43,3 +43,14 @@ var index=str.indexOf('w');
 console.log(index);//输出6 
 ```
 没有找到输出-1。
+
+####substring()
+字符串可以通过substring()方法截取子字符串。
+```
+var str="hello world";
+var subStr1=str.substr(1);//从索引1开始到结束
+console.log(subStr1);  //输出 "ello world"
+var subStr2=str.substr(0,3);//从索引0开始，到索引3结束，但不包括索引3
+console.log(subStr2); //输出 "hel" 
+```
+
