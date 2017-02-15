@@ -21,7 +21,7 @@
 | style | String | 组件的内联样式 | 可以动态设置的内联样式 |
 | hidden | Boolean | 组件是否显示 | 所有组件默认显示 |
 | data-\* | Any | 自定义属性 | 组件上触发的事件时，会发送给事件处理函数 |
-| bind\*/catch\* | EventHandler | 组件的事件 |   |
+| bind\*/catch\* | EventHandler | 组件的事件 |     |
 
 ### 特殊属性
 
@@ -35,7 +35,7 @@
 | Array | 数组 | \[ 1, "string" \] |
 | Object | 对象 | { key: value } |
 | EventHandler | 事件处理函数名 | "handlerName" 是 Page中定义的事件处理函数名 |
-| Any | 任意属性 |   |
+| Any | 任意属性 |      |
 
 ### 组件
 
