@@ -22,12 +22,9 @@
       * [布尔值](chapter3/3-2/3-2-3/bool.md)
       * [null和undefined](chapter3/3-2/3-2-3/nullundefined.md)
       * [数组](chapter3/3-2/3-2-3/array.md)
-      * 对象
+      * [对象](chapter3/3-2/3-2-3/object.md)
     * [3-2-4 变量](chapter3/3-2/3-2-4.md)
     * [3-2-5 运算符](chapter3/3-2/3-2-5.md)
-    * [3-2-6 字符串](chapter3/3-2/3-2-6.md)
-    * [3-2-7 数组](chapter3/3-2/3-2-7.md)
-    * [3-2-8 对象](chapter3/3-2/3-2-8.md)
     * [3-2-9 条件判断](chapter3/3-2/3-2-9.md)
     * [3-2-10 循环语句](chapter3/3-2/3-2-10.md)
   * [3-3 JavaScript函数](chapter3/3-3-javascript.md)
