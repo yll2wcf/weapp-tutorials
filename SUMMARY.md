@@ -17,6 +17,12 @@
     * [3-2-1 语句和语句块](chapter3/3-2/3-2-1.md)
     * [3-2-2 注释](chapter3/3-2/3-2-2.md)
     * [3-2-3 数据类型](chapter3/3-2/3-2-3.md)
+      * [数字类型](chapter3/3-2/3-2-3/number.md)
+      * [字符串](chapter3/3-2/3-2-3/string.md)
+      * [布尔值](chapter3/3-2/3-2-3/bool.md)
+      * [null和undefined](chapter3/3-2/3-2-3/nullundefined.md)
+      * 数组
+      * 对象
     * [3-2-4 变量](chapter3/3-2/3-2-4.md)
     * [3-2-5 运算符](chapter3/3-2/3-2-5.md)
     * [3-2-6 字符串](chapter3/3-2/3-2-6.md)
