@@ -130,3 +130,53 @@ var arr = ['one', 'two', 'three'];
 arr.reverse(); 
 arr; // ['three', 'two', 'one']
 ```
+
+####splice()
+
+`splice()`方法是修改数组的“万能方法”，它可以从指定的索引开始删除若干元素，然后再从该位置添加若干元素。
+
+该方法接收若干参数,第一个参数表示索引开始的位置,第二个参数表示删除的元素的个数,后面索引的元素表示在删除的位置添加的元素。
+
+```
+var arr = ['Microsoft', 'Apple', 'Yahoo', 'AOL', 'Excite', 'Oracle'];
+// 从索引2开始删除3个元素,然后再添加两个元素:
+arr.splice(2, 3, 'Google', 'Facebook'); // 返回删除的元素 ['Yahoo', 'AOL', 'Excite']
+arr; // ['Microsoft', 'Apple', 'Google', 'Facebook', 'Oracle']
+// 只删除,不添加:
+arr.splice(2, 2); // ['Google', 'Facebook']
+arr; // ['Microsoft', 'Apple', 'Oracle']
+// 只添加,不删除:
+arr.splice(2, 0, 'Google', 'Facebook'); // 返回[],因为没有删除任何元素
+arr; // ['Microsoft', 'Apple', 'Google', 'Facebook', 'Oracle']
+```
+
+####concat()
+
+concat()方法把当前的数组和另一个数组连接起来，并返回一个新的数组。
+
+请注意，concat()方法并没有修改当前Array，而是返回了一个新的Array。
+
+```
+var arr = ['A', 'B', 'C'];
+var added = arr.concat([1, 2, 3]);
+added; // ['A', 'B', 'C', 1, 2, 3]
+arr; // ['A', 'B', 'C']
+```
+实际上，concat()方法不仅可以接收数组还可以接收任意个元素和数组，并且自动把数组拆开，然后全部添加到新的数组里，非常的灵活：
+
+```
+var arr = ['A', 'B', 'C'];
+arr.concat(1, 2, [3, 4]); // ['A', 'B', 'C', 1, 2, 3, 4]
+```
+
+####join()
+join()方法是一个非常实用的方法，它把当前Array的每个元素都用指定的字符串连接起来，然后返回连接后的字符串：
+```
+var arr = ['A', 'B', 'C', 1, 2, 3];
+arr.join('-'); // 'A-B-C-1-2-3'
+```
+
+#### map()
+
+
+#### 多维数组
