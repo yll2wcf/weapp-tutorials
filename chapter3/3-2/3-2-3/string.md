@@ -36,4 +36,9 @@ ASCII字符可以以\x##形式的十六进制表示，例如：
 ```
 
 ####indexOf()
-字符串
+字符串可以通过调用indexOf()方法找某字符在字符串中的位置。
+```      
+var str="hello world";
+var index=str.indexOf('w');
+console.log(index);//输出6 
+```
