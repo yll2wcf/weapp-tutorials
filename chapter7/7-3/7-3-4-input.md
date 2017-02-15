@@ -159,6 +159,7 @@ background-color: lightgrey;
 
 运行效果如图7-10所示：
 
+
 ![](/assets/图7-10 input组件示例运行效果图.png)
 
 
