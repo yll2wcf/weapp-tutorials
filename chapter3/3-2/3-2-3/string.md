@@ -45,7 +45,7 @@ console.log(index);//输出6
 没有找到输出-1。
 
 ####substring()
-字符串可以通过substring()方法截取子字符串。
+字符串可以通过substring()方法截取字符串的一部分,返回新的字符串。
 ```
 var str="hello world";
 var subStr1=str.substr(1);//从索引1开始到结束
