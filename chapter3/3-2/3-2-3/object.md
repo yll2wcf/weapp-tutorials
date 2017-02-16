@@ -51,3 +51,12 @@ console.log('name' in xiaoming);//输出true
 ```
 'toString' in xiaoming; // true
 ```
+
+要判断一个属性是否是xiaoming自身拥有的，而不是继承得到的，可以用`hasOwnProperty()`方法：
+```
+var xiaoming = {
+    name: '小明'
+};
+xiaoming.hasOwnProperty('name'); // true
+xiaoming.hasOwnProperty('toString'); // false
+```
