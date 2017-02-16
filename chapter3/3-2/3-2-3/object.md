@@ -10,11 +10,14 @@ var person = {
     zipcode: null
 };
 ```
+
 JavaScript对象的键都是字符串类型，值可以是任意数据类型。上述person对象一共定义了6个键值对，其中每个键又称为对象的属性，例如，person的name属性为'Bob'，zipcode属性为null。
 
-要获取一个对象的属性，我们用对象变量.属性名的方式：
+要获取一个对象的属性，我们用对象变量.属性名的方式,访问一个不存在的属性也不会报错，而是返回`undefined`
 ```
 person.name; // 'Bob'
 person.zipcode; // null
+person.sex; //undefined 
 ```
+
 细心的同学可能会发现,在小程序的app.js文件中，app()方法里面参数就是一个`{}`包裹的对象。 每个页面的js文件 page()方法里面也是一个对象。
