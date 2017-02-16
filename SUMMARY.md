@@ -49,7 +49,7 @@
     * [3-3-3 方法](chapter3/3-3-javascript/3-3-3.md)
     * [3-3-4 高阶函数](chapter3/3-3-javascript/3-3-4.md)
       * [map函数](chapter3/3-3-javascript/3-3-4/map.md)
-      * reduce函数
+      * [reduce函数](chapter3/3-3-javascript/3-3-4/reduce.md)
       * filter函数
       * sort函数
     * 3-3-5 闭包
