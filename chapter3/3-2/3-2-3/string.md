@@ -90,3 +90,18 @@ var subStr2=str.substr(0,3);//从索引0开始，到索引3结束，但不包括
 console.log(subStr2); //输出 "hel" 
 ```
 
+####toUpperCase()
+
+`toUpperCase()`把一个字符串全部变为大写：
+
+```
+var s = 'Hello';
+s.toUpperCase(); // 返回'HELLO'
+```
+####toLowerCase()
+`toLowerCase()`把一个字符串全部变为小写：
+```
+var s = 'Hello';
+var lower = s.toLowerCase(); // 返回'hello'并赋值给变量lower
+lower; // 'hello'
+```
