@@ -64,3 +64,11 @@ for (var key in o) {
     console.log(o[key]); // 'Jack' ,20 ,'Beijing'  
 }
 ```
+由于数组也是特殊的对象，而它的每个元素的索引被视为对象的属性，因此，`for ... in`循环可以直接循环出数组的索引：
+```
+var a = ['A', 'B', 'C'];
+for (var i in a) {
+    console.log(i); // '0', '1', '2'
+    console.log(a[i]); // 'A', 'B', 'C'
+}
+```
