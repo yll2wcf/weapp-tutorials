@@ -8,9 +8,11 @@ false; // 这是一个false值
 2 > 1; // 这是一个true值
 2 >= 3; // 这是一个false值
 ```
-我们还可以用非0表示true, 0表示false
+在条件语句中,我们还可以用非0表示true, 0表示false
 ```      
 if(1){  //改成0不会输出
   console.log("非0表示true");
 }
 ```
+
+除了0,JavaScript把`null`、`undefined`、`NaN`和空字符串`''`都视为`false`，其他值一概视为`true`。

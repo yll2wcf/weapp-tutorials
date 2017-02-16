@@ -177,6 +177,47 @@ arr.join('-'); // 'A-B-C-1-2-3'
 ```
 
 #### map()
+map函数对数组的每个元素调用定义的回调函数并返回包含结果的数组。举个例子,比如对数组所有的元素都加1，修改小程序项目中index.js,代码如下：
+```
+Page({
+  onLoad: function () {
+      var numArr=[1,2,3,4,5];
+      var newArr=numArr.map(numberAdd);
+      console.log(newArr);//输出2,3,4,5,6
+  }
+})
+//函数
+function numberAdd(n){
+    return n+1;
+}
+```
+我们通过`fuction`关键字定义了一个函数(后面还会具体介绍函数用法),当数组调用`map()`函数时，数组中的有几个元素就会调用几次numberAdd函数,把当前数组的具体元素替换`numberAdd()`函数中的形参n.
 
+学会`map()`和`join()`两个具体的函数,这时候我们就基本能看懂小程序默认生成的工程中utils.js里的代码了.
+```
+function formatTime(date) {
+  var year = date.getFullYear() //获取年份
+  var month = date.getMonth() + 1 //获取月份 getMonth()从0开始需要加1
+  var day = date.getDate() //获取日期
+  
+  var hour = date.getHours() //获取小时
+  var minute = date.getMinutes() //获取分钟
+  var second = date.getSeconds() //获取秒数
+
+  //格式化数组 年月日之间添加"/" 时分秒之间添加":"  
+  return [year, month, day].map(formatNumber).join('/') + ' ' + [hour, minute, second].map(formatNumber).join(':')
+}
+
+function formatNumber(n) {
+  n = n.toString()
+  return n[1] ? n : '0' + n  //条件运算符 数字小于两位前面补0
+}
+```
 
 #### 多维数组
+如果数组的某个元素又是一个Array，则可以形成多维数组，例如：
+```
+var arr = [[1, 2, 3], [400, 500, 600], '-'];
+```
+下面代码是把400这个元素取出来，
+```arr[1][0];```
