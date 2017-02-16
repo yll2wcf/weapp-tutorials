@@ -44,7 +44,7 @@
       * [定义函数](chapter3/3-3-javascript/3-3-1/dingyi.md)
       * [调用函数](chapter3/3-3-javascript/3-3-1/diaoyong.md)
       * [arguments参数](chapter3/3-3-javascript/3-3-1/arguments.md)
-      * rest参数
+      * [rest参数](chapter3/3-3-javascript/3-3-1/rest.md)
     * [3-3-2 变量作用域](chapter3/3-3-javascript/3-3-2.md)
     * 3-3-3 方法
     * 3-3-4 高阶函数
