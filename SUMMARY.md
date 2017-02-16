@@ -46,8 +46,11 @@
       * [arguments参数](chapter3/3-3-javascript/3-3-1/arguments.md)
       * [rest参数](chapter3/3-3-javascript/3-3-1/rest.md)
     * [3-3-2 变量作用域](chapter3/3-3-javascript/3-3-2.md)
-    * 3-3-3 方法
-    * 3-3-4 高阶函数
+    * [3-3-3 方法](chapter3/3-3-javascript/3-3-3.md)
+    * [3-3-4 高阶函数](chapter3/3-3-javascript/3-3-4.md)
+      * map函数
+      * reduce函数
+      * filter函数
     * 3-3-5 闭包
     * 3-3-6 箭头函数
   * [3-4 JavaScript标准对象](chapter3/3-4-javascript.md)
