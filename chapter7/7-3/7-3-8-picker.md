@@ -33,4 +33,80 @@ picker滚动选择器，从底部弹出，现支持三种样式，通过mode来�
 | disabled | Boolean | false | 是否禁用 |
 
 
+示例代码：
+wxml中：
+```
+<view class="picker-view">
+  <view>地区选择器</view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker-wrp">当前选择：{{array[index]}}</view>
+  </picker>
+</view>
+<view class="picker-view">
+  <view>时间选择器</view>
+  <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+    <view class="picker-wrp">当前选择: {{time}}</view>
+  </picker>
+</view>
+
+<view class="picker-view">
+  <view>日期选择器</view>
+  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker-wrp">当前选择: {{date}}</view>
+  </picker>
+</view>
+```
+js中：
+```
+Page({
+  data: {
+    array: ['美国', '中国', '巴西', '日本'],
+    objectArray: [
+      {
+        id: 0,
+        name: '美国'
+      },
+      {
+        id: 1,
+        name: '中国'
+      },
+      {
+        id: 2,
+        name: '巴西'
+      },
+      {
+        id: 3,
+        name: '日本'
+      }
+    ],
+    index: 0,
+    date: '2016-09-01',
+    time: '12:01'
+  },
+  bindPickerChange: function(e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index: e.detail.value
+    })
+  },
+  bindDateChange: function(e) {
+    this.setData({
+      date: e.detail.value
+    })
+  },
+  bindTimeChange: function(e) {
+    this.setData({
+      time: e.detail.value
+    })
+  }
+})
+```
+
+运行效果如图7-14所示：
+
+
+
+
+
+
 
