@@ -55,7 +55,7 @@
     * [3-3-5 闭包](chapter3/3-3-javascript/3-3-5.md)
     * [3-3-6 箭头函数](chapter3/3-3-javascript/3-3-6.md)
   * [3-4 JavaScript标准对象](chapter3/3-4-javascript.md)
-    * 3-4-1 Date
+    * [3-4-1 Date](chapter3/3-4-javascript/3-4-1-date.md)
     * 3-4-2 RegExp
     * 3-4-3 JSON
 * [第四章 熟练掌握wxss和wxml](chapter4.md)
