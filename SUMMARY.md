@@ -36,8 +36,24 @@
       * [for循环](chapter3/3-2/3-2-10/for.md)
       * [while循环](chapter3/3-2/3-2-10/while.md)
     * [3-2-8 Map和Set](chapter3/3-2/3-2-8-mapset.md)
+      * [Map](chapter3/3-2/3-2-8-mapset/map.md)
+      * [Set](chapter3/3-2/3-2-8-mapset/set.md)
+      * [iterable](chapter3/3-2/3-2-8-mapset/iterable.md)
   * [3-3 JavaScript函数](chapter3/3-3-javascript.md)
+    * 3-3-1 函数的定义和调用
+      * 定义函数
+      * 调用函数
+      * arguments参数
+      * rest参数
+    * [3-3-2 变量作用域](chapter3/3-3-javascript/3-3-2.md)
+    * 3-3-3 方法
+    * 3-3-4 高阶函数
+    * 3-3-5 闭包
+    * 3-3-6 箭头函数
   * [3-4 JavaScript标准对象](chapter3/3-4-javascript.md)
+    * 3-4-1 Date
+    * 3-4-2 RegExp
+    * 3-4-3 JSON
 * [第四章 熟练掌握wxss和wxml](chapter4.md)
 * [第五章 小程序开发基础](chapter5.md)
 * [第六章 flexBox布局](chapter6.md)
