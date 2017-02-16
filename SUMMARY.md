@@ -41,7 +41,7 @@
       * [iterable](chapter3/3-2/3-2-8-mapset/iterable.md)
   * [3-3 JavaScript函数](chapter3/3-3-javascript.md)
     * [3-3-1 函数的定义和调用](chapter3/3-3-javascript/3-3-1.md)
-      * 定义函数
+      * [定义函数](chapter3/3-3-javascript/3-3-1/dingyi.md)
       * 调用函数
       * arguments参数
       * rest参数
