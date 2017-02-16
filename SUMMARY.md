@@ -35,6 +35,7 @@
     * [3-2-7 循环语句](chapter3/3-2/3-2-10.md)
       * [for循环](chapter3/3-2/3-2-10/for.md)
       * [while循环](chapter3/3-2/3-2-10/while.md)
+    * [3-2-8 Map和Set](chapter3/3-2/3-2-8-mapset.md)
   * [3-3 JavaScript函数](chapter3/3-3-javascript.md)
   * [3-4 JavaScript标准对象](chapter3/3-4-javascript.md)
 * [第四章 熟练掌握wxss和wxml](chapter4.md)
