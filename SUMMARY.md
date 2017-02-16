@@ -57,7 +57,7 @@
   * [3-4 JavaScript标准对象](chapter3/3-4-javascript.md)
     * [3-4-1 Date](chapter3/3-4-javascript/3-4-1-date.md)
     * [3-4-2 RegExp](chapter3/3-4-javascript/3-4-2-regexp.md)
-    * 3-4-3 JSON
+    * [3-4-3 JSON](chapter3/3-4-javascript/3-4-3-json.md)
 * [第四章 熟练掌握wxss和wxml](chapter4.md)
 * [第五章 小程序开发基础](chapter5.md)
 * [第六章 flexBox布局](chapter6.md)
