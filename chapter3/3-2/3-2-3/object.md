@@ -21,3 +21,29 @@ person.sex; //undefined
 ```
 
 细心的同学可能会发现,在小程序的app.js文件中，app()方法里面参数就是一个`{}`包裹的对象。 每个页面的js文件 page()方法里面也是一个对象。
+
+
+####操作对象
+
+由于JavaScript的对象是动态类型，你可以自由地给一个对象添加或删除属性：
+```
+var xiaoming = {
+    name: '小明'
+};
+xiaoming.age; // undefined
+xiaoming.age = 18; // 新增一个age属性
+xiaoming.age; // 18
+delete xiaoming.age; // 删除age属性
+xiaoming.age; // undefined
+delete xiaoming.name; // 删除name属性
+xiaoming.name; // undefined
+delete xiaoming.school; // 删除一个不存在的school属性也不会报错
+```
+
+如果我们要检测xiaoming是否拥有某一属性，可以用in操作符：
+```
+var xiaoming = {
+   name: '小明',
+};
+console.log('name' in xiaoming);//输出true
+```
