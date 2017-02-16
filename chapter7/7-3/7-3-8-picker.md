@@ -1,7 +1,7 @@
 # 7-3-8 picker
 
 picker滚动选择器，从底部弹出，现支持三种样式，通过mode来区分，分别是普通选择器，时间选择器，日期选择器，默认是普通选择器（mode = selector）。  
-picker所包含的属性：
+普通选择器（mode = selector）所包含的属性：
 
 | 属性名 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
@@ -11,5 +11,9 @@ picker所包含的属性：
 | bindchange | EventHandle |  | value 改变时触发 change 事件，event.detail = {value: value} |
 | disabled | Boolean | false | 是否禁用 |
 
+
+时间选择器（mode = time）所包含的属性：
+
+日期选择器（mode = date）所包含的属性：
 
 
