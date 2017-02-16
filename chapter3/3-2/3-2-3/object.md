@@ -40,10 +40,14 @@ xiaoming.name; // undefined
 delete xiaoming.school; // 删除一个不存在的school属性也不会报错
 ```
 
-如果我们要检测xiaoming是否拥有某一属性，可以用in操作符：
+如果我们要检测`xiaoming`是否拥有某一属性，可以用in操作符：
 ```
 var xiaoming = {
    name: '小明',
 };
 console.log('name' in xiaoming);//输出true
+```
+不过要小心，如果in判断一个属性存在，这个属性不一定是`xiaoming`的，它可能是xiaoming继承得到的,任何对象都会继承`object`。`toString` 就是定义在`object`对象中。
+```
+'toString' in xiaoming; // true
 ```
