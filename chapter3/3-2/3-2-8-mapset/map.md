@@ -30,7 +30,7 @@ m.get('张三'); // undefined
 由于一个key只能对应一个value，所以，多次对一个key放入value，后面的值会把前面的值冲掉：
 ```
 var m = new Map();
-m.set('Adam', 67);
-m.set('Adam', 88);
-m.get('Adam'); // 88
+m.set('张三', 67);
+m.set('张三', 88);
+m.get('张三'); // 88
 ```
