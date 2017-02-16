@@ -177,6 +177,20 @@ arr.join('-'); // 'A-B-C-1-2-3'
 ```
 
 #### map()
-
+map函数对数组的每个元素调用定义的回调函数并返回包含结果的数组。举个例子,比如对数组所有的元素都加1，修改index.js,代码如下：
+```
+Page({
+  onLoad: function () {
+      var numArr=[1,2,3,4,5];
+      var newArr=numArr.map(numberAdd);
+      console.log(newArr);//输出2,3,4,5,6
+  }
+})
+//函数
+function numberAdd(n){
+    return n+1;
+}
+```
+我们通过`fuction`关键字定义了一个函数(后面还会具体介绍函数用法),
 
 #### 多维数组
