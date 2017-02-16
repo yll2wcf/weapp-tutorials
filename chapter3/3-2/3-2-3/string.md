@@ -42,8 +42,13 @@ var age = 20;
 var message = '你好, ' + name + ', 你今年' + age + '岁了!';
 console.log(message);// 输出 您好小明，你今年20岁了!
 ```
-
-
+如果有很多变量需要连接，用`+`号就比较麻烦。ES6新增了一种模板字符串，表示方法和上面的多行字符串一样，但是它会自动替换字符串中的变量：
+```
+var name = '小明';
+var age = 20;
+var message = `你好, ${name}, 你今年${age}岁了!`;
+console.log(message);// 输出 您好小明，你今年20岁了!
+```
 ####indexOf()
 字符串可以通过调用indexOf()方法找某字符在字符串中的位置。如下:
 ```      
