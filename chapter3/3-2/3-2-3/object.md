@@ -19,6 +19,10 @@ person.name; // 'Bob'
 person.zipcode; // null
 person.sex; //undefined 
 ```
+对象也可以通过 对象变量["属性名"]方式访问。如：
+```
+person["name"]; //'Bob'
+```
 
 细心的同学可能会发现,在小程序的app.js文件中，app()方法里面参数就是一个`{}`包裹的对象。 每个页面的js文件 page()方法里面也是一个对象。
 
