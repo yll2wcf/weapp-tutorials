@@ -6,7 +6,7 @@ switch 所包含的属性：
 | checked | Boolean | false | 是否选中 |
 | type | String | switch | 样式，有效值：switch, checkbox |
 | bindchange | EventHandle | | checked 改变时触发 change 事件，event.detail={ value:checked} |
-| color | Color | | switch 的颜色，同 css 的 color |
+| color | Color | | switch 的颜色，同 css 的 color |
 示例代码：
 wxml中：
 ```
@@ -48,4 +48,5 @@ for(var i = 1; i <= 2; ++i) {
 }
 Page(pageData)
 ```
-运行效果如图7-16所示：
+运行效果如图7-16所示：
+
