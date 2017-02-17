@@ -36,7 +36,7 @@
     * [3-2-8 循环语句](chapter3/3-2/3-2-10.md)
       * [for循环](chapter3/3-2/3-2-10/for.md)
       * [while循环](chapter3/3-2/3-2-10/while.md)
-    * [3-2-8 Map和Set](chapter3/3-2/3-2-8-mapset.md)
+    * [3-2-9 Map和Set](chapter3/3-2/3-2-8-mapset.md)
       * [Map](chapter3/3-2/3-2-8-mapset/map.md)
       * [Set](chapter3/3-2/3-2-8-mapset/set.md)
       * [iterable](chapter3/3-2/3-2-8-mapset/iterable.md)
