@@ -75,7 +75,7 @@
   * [5.3 注册程序](chapter5/5.3.md)
   * [5.4 注册页面](chapter5/5.4.md)
   * [5.5 简单封装和使用](chapter5/5.5.md)
-  * [本章小结](chapter5/.md)
+  * [本章小结](chapter5/end.md)
 * [第六章 flexBox布局](chapter6.md)
 * [第七章 组件的开发应用](chapter7.md)
   * [7-1 视图容器组件](chapter7/7-1.md)
