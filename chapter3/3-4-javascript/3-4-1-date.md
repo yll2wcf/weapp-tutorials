@@ -18,7 +18,7 @@ var d = new Date(1483920930100);
 console.log(d); //输出Mon Jan 09 2017 08:15:30 GMT+0800 (CST)
 ```
 
-Date对象方法很多，常用的有下面这些。
+Date对象方法很多，常用的有下面这些:
 ```
 var now = new Date();
 now.getFullYear(); // 获取年
