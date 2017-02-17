@@ -13,8 +13,8 @@ Page({
 })
 
 function foo(x, ...rest) {
-    console.log(x);
-    console.log(rest);
+    console.log(x); //输出haha
+    console.log(rest);//输出["hehe", "heihei"]
 }
 
 ```
