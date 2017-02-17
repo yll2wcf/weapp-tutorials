@@ -17,3 +17,17 @@ console.log(d);//输出 Mon Jan 09 2017 08:15:30 GMT+0800 (CST)
 var d = new Date(1483920930100);
 console.log(d); //输出Mon Jan 09 2017 08:15:30 GMT+0800 (CST)
 ```
+
+Date对象方法很多，常用的有下面这些。
+```
+var now = new Date();
+now.getFullYear(); // 获取年
+now.getMonth(); //获取月份,0表示1 范围0-11
+now.getDate(); // 获取日期 比如9号
+now.getDay(); // 获取星期 如星期三，返回3
+now.getHours(); //获取小时数 24小时制
+now.getMinutes(); // 获取分钟
+now.getSeconds(); // 获取秒
+now.getMilliseconds(); // 获取秒
+now.getTime(); // 以number形式表示的时间戳如:1483920930100
+```
