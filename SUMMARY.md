@@ -108,6 +108,7 @@
     * [7-6-1 navigator](chapter7/7-6/7-6-1-navigator.md)
   * [7-7 画布组件](chapter7/7-7.md)
     * [7-7-1 canvas](chapter7/7-7/7-7-1-canvas.md)
+  * [本章小结](chapter7/end.md)
 * [第八章 API接口](chapter8.md)
 * [第九章 控件进阶](chapter9.md)
 * [第十章 综合案例](chapter10.md)
