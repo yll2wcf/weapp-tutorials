@@ -40,6 +40,8 @@ wxml中：
   <button class="button" type="default" bindtap="audioStart">回到开头</button>
 </view>
 ```
+js中：
+
 
 
 
