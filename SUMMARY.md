@@ -70,6 +70,12 @@
     * [3-4-3 JSON](chapter3/3-4-javascript/3-4-3-json.md)
 * [第四章 熟练掌握wxss和wxml](chapter4.md)
 * [第五章 小程序开发基础](chapter5.md)
+  * [5.1 全局配置](chapter5/5.1.md)
+  * [5.2 页面配置](chapter5/5.2.md)
+  * 5.3 注册程序
+  * 5.4 注册页面
+  * 5.5 简单封装和使用
+  * 本章小结
 * [第六章 flexBox布局](chapter6.md)
 * [第七章 组件的开发应用](chapter7.md)
   * [7-1 视图容器组件](chapter7/7-1.md)
