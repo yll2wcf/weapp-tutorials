@@ -39,6 +39,7 @@
       * [Map](chapter3/3-2/3-2-8-mapset/map.md)
       * [Set](chapter3/3-2/3-2-8-mapset/set.md)
       * [iterable](chapter3/3-2/3-2-8-mapset/iterable.md)
+    * [3-2-4 常量](chapter3/3-2/3-2-4const.md)
   * [3-3 JavaScript函数](chapter3/3-3-javascript.md)
     * [3-3-1 函数的定义和调用](chapter3/3-3-javascript/3-3-1.md)
       * [定义函数](chapter3/3-3-javascript/3-3-1/dingyi.md)
