@@ -13,3 +13,25 @@ function test() {
 }
 
 ```
+上面的代码没有没问题,如果把return语句拆分成两行:
+```
+function test() {
+    return 
+        { name: 'test' };
+}
+```
+这时候就出问题了，由于JavaScript引擎在行末自动添加分号的机制，上面的代码实际上变成了：
+```
+function test() {
+    return;//自动添加了分号，相当于return undefined;
+        { name: 'test' };// 这行语句已经没法执行到了
+}
+```
+正确的多行写法是：
+```
+function test() {
+    return { // 这里不会自动加分号，因为{表示语句尚未结束
+        name: 'test'
+    };
+}
+```
