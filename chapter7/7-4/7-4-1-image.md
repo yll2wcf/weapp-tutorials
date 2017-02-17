@@ -35,5 +35,69 @@ image所包含的属性：
 | bottom left | 不缩放图片，只显示图片的左下边区域 |
 | bottom right | 不缩放图片，只显示图片的右下边区域 |
 
+示例代码：
+wxml中：
+```
+<view wx:for="{{array}}" wx:for-item="item">
+  <view>{{item.text}}</view>
+  <view class="image">
+    <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{src}}"></image>
+  </view>
+</view>
+```
+js中：
+```
+Page({
+  data:{
+    array: [{
+      mode: 'aspectFit',
+      text: 'aspectFit：保持纵横比缩放图片，使图片完整的显示出来'
+    }, { 
+      mode: 'scaleToFill',
+      text: 'scaleToFill：不保持纵横比缩放图片，使图片拉伸适应'
+    }, { 
+      mode: 'aspectFill',
+      text: 'aspectFill：保持纵横比缩放图片，只保证图片的短边能完全显示出来'
+    }, { 
+      mode: 'top',
+      text: 'top：不缩放图片，只显示图片的顶部区域' 
+    }, {      
+      mode: 'bottom',
+      text: 'bottom：不缩放图片，只显示图片的底部区域'
+    }, { 
+      mode: 'center',
+      text: 'center：不缩放图片，只显示图片的中间区域'
+    }, { 
+      mode: 'left',
+      text: 'left：不缩放图片，只显示图片的左边区域'
+    }, { 
+      mode: 'right',
+      text: 'right：不缩放图片，只显示图片的右边区域'
+    }, { 
+      mode: 'top left',
+      text: 'top left：不缩放图片，只显示图片的左上边区域' 
+    }, { 
+      mode: 'top right',
+      text: 'top right：不缩放图片，只显示图片的右上边区域'
+    }, { 
+      mode: 'bottom left',
+      text: 'bottom left：不缩放图片，只显示图片的左下边区域'
+    }, { 
+      mode: 'bottom right',
+      text: 'bottom right：不缩放图片，只显示图片的右下边区域'
+    }],
+    src: '../resources/testImage.png'
+  },
+  imageError: function(e) {
+    console.log('image3发生error事件，携带值为', e.detail.errMsg)
+  },
+
+})
+```
+运行效果如图7-17所示：
+
+![](/assets/图7-17 image组件示例运行效果图.png)
+
+
 
 
