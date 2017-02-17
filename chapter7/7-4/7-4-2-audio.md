@@ -17,8 +17,29 @@ audio 所包含的属性：
 | bindpause | EventHandle |  | 当暂停播放时触发 pause 事件 |
 | bindtimeupdate | EventHandle |  | 当播放进度改变时触发 timeupdate 事件，detail = {currentTime, duration} |
 | bindended | EventHandle |  | 当播放到末尾时触发 ended 事件 |
-|  |  |  |  |
-|  |  |  |  |
+
+MediaError.code
+
+| 错误码 | 说明 |
+| :--- | :--- |
+| MEDIA_ERR_ABORTED | 获取资源被用户禁止 |
+| MEDIA_ERR_NETWORD | 网络错误 |
+| MEDIA_ERR_DECODE | 解码错误 |
+| MEDIA_ERR_SRC_NOT_SUPPOERTED | 不合适资源 |
+
+示例代码：
+wxml中：
+```
+<view class="audio-view">
+  <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+</view>
+<view class="audio-view">
+  <button class="button" type="default" bindtap="audioPlay">播放</button>
+  <button class="button" type="default" bindtap="audioPause">暂停</button>
+  <button class="button" type="default" bindtap="audio14">设置当前播放时间为14秒</button>
+  <button class="button" type="default" bindtap="audioStart">回到开头</button>
+</view>
+```
 
 
 
