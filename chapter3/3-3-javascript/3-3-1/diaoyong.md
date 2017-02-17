@@ -29,11 +29,11 @@ abs(10, 'hehe', null); // 返回10
 
 此时abs(x)函数的参数x将收到undefined，计算结果为NaN。
 
-要避免收到undefined，可以对参数进行检查：
+要避免收到undefined，可以对参数进行检查,`typeof`是判断数据类型的关键字，`throw`是抛出异常关键字:
 ```
 function abs(x) {
     if (typeof x !== 'number') {
-        throw 'Not a number';
+        throw 'Not a number';//抛出异常,终止运行
     }
     if (x >= 0) {
         return x;
