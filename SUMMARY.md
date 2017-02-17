@@ -45,6 +45,7 @@
       * [调用函数](chapter3/3-3-javascript/3-3-1/diaoyong.md)
       * [arguments参数](chapter3/3-3-javascript/3-3-1/arguments.md)
       * [rest参数](chapter3/3-3-javascript/3-3-1/rest.md)
+      * [常见问题](chapter3/3-3-javascript/3-3-1/problem.md)
     * [3-3-2 变量作用域](chapter3/3-3-javascript/3-3-2.md)
     * [3-3-3 方法](chapter3/3-3-javascript/3-3-3.md)
     * [3-3-4 高阶函数](chapter3/3-3-javascript/3-3-4.md)
