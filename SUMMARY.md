@@ -33,7 +33,7 @@
       * [逻辑运算符](chapter3/3-2/3-2-5/05.md)
       * [条件运算符](chapter3/3-2/3-2-5/06.md)
     * [3-2-7 条件判断](chapter3/3-2/3-2-9.md)
-    * [3-2-7 循环语句](chapter3/3-2/3-2-10.md)
+    * [3-2-8 循环语句](chapter3/3-2/3-2-10.md)
       * [for循环](chapter3/3-2/3-2-10/for.md)
       * [while循环](chapter3/3-2/3-2-10/while.md)
     * [3-2-8 Map和Set](chapter3/3-2/3-2-8-mapset.md)
