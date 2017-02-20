@@ -59,3 +59,7 @@ var util = require('../../utils/util.js')
 //使用
 utils.formatTime(...)
 ```
+其中导入还可以换一种写法:
+```
+import util from '../../utils/util';
+```
