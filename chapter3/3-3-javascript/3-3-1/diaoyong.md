@@ -51,11 +51,11 @@ module.exports = {
   formatTime: formatTime
 }
 ```
-`logs.js`中引入:
+`logs.js`中导入和使用:
 ```
+//导入util
 var util = require('../../utils/util.js')
-```
-使用
-```
+
+//使用
 utils.formatTime(...)
 ```
