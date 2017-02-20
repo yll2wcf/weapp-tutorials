@@ -68,7 +68,7 @@
     * [3-4-2 RegExp](chapter3/3-4-javascript/3-4-2-regexp.md)
     * [3-4-3 JSON](chapter3/3-4-javascript/3-4-3-json.md)
     * [3-4-4 Math](chapter3/3-4-javascript/3-4-4-math.md)
-    * 3-4-5 包装类型对象
+    * [3-4-5 包装类型对象](chapter3/3-4-javascript/3-4-5.md)
 * [第四章 熟练掌握wxss和wxml](chapter4.md)
 * [第五章 小程序开发基础](chapter5.md)
   * [5.1 全局配置](chapter5/5.1.md)
