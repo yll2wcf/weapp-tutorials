@@ -14,3 +14,21 @@ navigator 导航组件，类似于HTML中的&lt; a>标签，但无target属性�
 **注意**：navigator-hover 默认为 {background-color: rgba(0, 0, 0, 0.1); opacity: 0.7;}, &lt; navigator/> 的子节点背景色应为透明色。
 
 示例代码：
+```
+ <view class="viewName">
+    <navigator url="../image/image" hover-class="navigator-hover">
+      <text class="view-Name">image展示</text>
+    </navigator>
+  </view>
+   <view class="viewName">
+    <navigator url="../audio/audio" hover-class="navigator-hover">
+      <text class="view-Name">audio展示</text>
+    </navigator>
+  </view>
+  <view class="viewName">
+    <navigator url="../video/video" hover-class="navigator-hover">
+      <text class="view-Name">video展示</text>
+    </navigator>
+  </view>
+```
+
