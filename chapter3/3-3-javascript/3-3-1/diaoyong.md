@@ -42,3 +42,24 @@ function abs(x) {
     }
 }
 ```
+
+我们还可以把在一个文件中定义的函数暴露出去，让别的文件可以引入调用。
+比如小程序默认生成的项目中`utils.js`:
+```
+//暴露format方法
+module.exports = {
+  formatTime: formatTime
+}
+```
+`logs.js`中导入和使用:
+```
+//导入util
+var util = require('../../utils/util.js')
+
+//使用
+utils.formatTime(...)
+```
+其中导入还可以换一种写法:
+```
+import util from '../../utils/util';
+```
