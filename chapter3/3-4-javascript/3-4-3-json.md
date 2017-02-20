@@ -27,6 +27,9 @@ var zhangsan = {
     name: '张三',
     age: 18
 };
-JSON.stringify(xiaoming); //// {"name":"张三","age":14}
+JSON.stringify(xiaoming); //// {"name":"张三","age":18}
 ```
 
+```
+JSON.parse('{"name":"张三","age":18}'); // Object {name: '张三', age: 18}
+```
