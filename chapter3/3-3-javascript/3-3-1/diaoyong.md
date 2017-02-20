@@ -54,7 +54,7 @@ module.exports = {
 `logs.js`中引入:
 ```
 var util = require('../../utils/util.js')
-
+```
 使用
 ```
 utils.formatTime(...)
