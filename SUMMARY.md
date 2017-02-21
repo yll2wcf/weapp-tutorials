@@ -84,6 +84,7 @@
   * [6-3 子元素属性](chapter6/yuan.md)
   * [6-4 position属性](chapter6/6-4-position.md)
   * [6-5 边框，空隙与填充](chapter6/6-5.md)
+  * [本章小结](chapter6/6-6.md)
 * [第七章 组件的开发应用](chapter7.md)
   * [7-1 视图容器组件](chapter7/7-1.md)
     * [7-1-1 view](chapter7/7-1/7-1-1-view.md)
@@ -150,7 +151,7 @@
     * [10-5-2 页面渲染](chapter10/10-1/10-1-5/10-1-5-2.md)
     * [10-5-3 完成相似页面](chapter10/10-1/10-1-5/10-1-5-3.md)
   * [10-6 音乐播放页](chapter10/10-1/10-1-6.md)
-  * [10-7 总结](chapter10/10-1/10-1-7.md)
+  * [本章小结](chapter10/10-1/10-1-7.md)
 * [第十一章 发布小程序](chapter11.md)
 * [附录](chapter12.md)
 
