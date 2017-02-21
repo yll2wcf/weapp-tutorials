@@ -125,7 +125,7 @@
   * [8-5 位置](chapter8/8-5.md)
   * [8-6 设备](chapter8/8-6.md)
   * [8-7 界面](chapter8/8-7.md)
-  * 8-8 开放接口
+  * [8-8 开放接口](chapter8/8-8.md)
 * [第九章 控件进阶](chapter9.md)
   * [9-1 九宫格](chapter9/9-1.md)
   * [9-2 页脚](chapter9/9-2.md)
