@@ -80,6 +80,7 @@
   * [6-1 基本要素](chapter6/6-1.md)
   * [6-2 容器属性](chapter6/6-2.md)
   * [6-3 子元素属性](chapter6/yuan.md)
+  * [6-4 position属性](chapter6/6-4-position.md)
 * [第七章 组件的开发应用](chapter7.md)
   * [7-1 视图容器组件](chapter7/7-1.md)
     * [7-1-1 view](chapter7/7-1/7-1-1-view.md)
