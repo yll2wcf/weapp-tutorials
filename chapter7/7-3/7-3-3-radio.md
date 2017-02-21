@@ -18,7 +18,7 @@ radio单选项目。
 
 示例代码：  
 wxml中：
-```
+```xml
 <radio-group class="radio-group" bindchange="radioChange">
   <label class="radio">
     <radio value="{{item.value}}" checked="true" />北京

@@ -1,7 +1,7 @@
 ###arguments参数
 
 JavaScript还有一个免费赠送的关键字`arguments`，它只在函数内部起作用，并且永远指向当前函数的调用者传入的所有参数。arguments类似数组但它不是一个数组：
-```
+```js
 //index.js
 Page({
   onLoad: function () {
@@ -18,7 +18,7 @@ function foo(x) {
 ```
 
 利用arguments，你可以获得调用者传入的所有参数。也就是说，即使函数不定义任何形式参数，还是可以拿到参数的值：
-```
+```js
 function abs() {
     if (arguments.length === 0) {
         return 0;
@@ -32,7 +32,7 @@ abs(-9); // 9
 ```
 
 实际上`arguments`最常用于判断传入参数的个数。你可能会看到这样的写法：
-```
+```js
 // foo(a[, b], c)
 // 接收2~3个参数，b是可选参数，如果只传2个参数，b默认为null：
 function foo(a, b, c) {

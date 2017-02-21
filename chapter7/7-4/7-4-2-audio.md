@@ -29,7 +29,7 @@ MediaError.code
 
 示例代码：
 wxml中：
-```
+```xml
 <view class="audio-view">
   <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
 </view>
@@ -41,7 +41,7 @@ wxml中：
 </view>
 ```
 js中：
-```
+```js
 Page({
   data:{
     poster: '音频封面地址',

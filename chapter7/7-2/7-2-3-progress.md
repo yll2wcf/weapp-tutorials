@@ -14,7 +14,7 @@ progress包含的属性：
 示例代码：  
 wxml中：
 
-```
+```xml
 <view class="progress-view">
   <view class="progress-box">
     <progress percent="20" show-info />

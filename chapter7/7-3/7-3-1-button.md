@@ -19,7 +19,7 @@ button包含的属性：
 
 wxml中：
 
-```
+```xml
 <view class="content">
   <view class="button_box">
     <button size="default">Content</button>

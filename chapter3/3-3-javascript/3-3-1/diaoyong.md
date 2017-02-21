@@ -1,6 +1,6 @@
 ###调用函数
 调用函数时，按顺序传入参数即可，修改index.js，如下
-```
+```js
 //index.js
 Page({
 
@@ -20,17 +20,19 @@ var abs = function (x) {
 ```
 
 由于JavaScript允许传入任意个参数而不影响调用，因此传入的参数比定义的参数多也没有问题，虽然函数内部并不需要这些参数：
-```
+```js
 abs(-9, 'haha'); // 返回9
 abs(10, 'hehe', null); // 返回10
 ```
 传入的参数比定义的少也没有问题：
-```console.log(abs()); //输出NaN```
+```js
+console.log(abs()); //输出NaN
+```
 
 此时abs(x)函数的参数x将收到undefined，计算结果为NaN。
 
 要避免收到undefined，可以对参数进行检查,`typeof`是判断数据类型的关键字，`throw`是抛出异常关键字:
-```
+```js
 function abs(x) {
     if (typeof x !== 'number') {
         throw 'Not a number';//抛出异常,终止运行
@@ -45,14 +47,14 @@ function abs(x) {
 
 我们还可以把在一个文件中定义的函数暴露出去，让别的文件可以引入调用。
 比如小程序默认生成的项目中`utils.js`:
-```
+```js
 //暴露format方法
 module.exports = {
   formatTime: formatTime
 }
 ```
 `logs.js`中导入和使用:
-```
+```js
 //导入util
 var util = require('../../utils/util.js')
 
@@ -60,6 +62,6 @@ var util = require('../../utils/util.js')
 utils.formatTime(...)
 ```
 其中导入还可以换一种写法:
-```
+```js
 import util from '../../utils/util';
 ```

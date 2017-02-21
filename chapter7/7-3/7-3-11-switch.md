@@ -9,7 +9,7 @@ switch 所包含的属性：
 | color | Color | | switch 的颜色，同 css 的 color |
 示例代码：
 wxml中：
-```
+```xml
   <view class="switch-view">
     <view>type="switch"</view>
     <view class="switch">
@@ -24,7 +24,7 @@ switch 所包含的属性：
   </view>
 ```
 js中：
-```
+```js
 var pageData = {
   data: {
     switch1Checked: true,

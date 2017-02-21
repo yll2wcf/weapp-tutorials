@@ -15,7 +15,7 @@ canvas所包含的属性：
 
 示例代码：
 wxml中：
-```
+```xml
 <view class="container">
   <view class="canvas_area">
     <!--注意：同一页面中的 canvas-id 不可重复，如果使用一个已经出现过的 canvas-id，该 canvas 标签对应的画布将被隐藏并不再正常工作-->
@@ -32,7 +32,7 @@ wxml中：
 </view>
 ```
 js中：
-```
+```js
 Page({
   data: {
     pen: 3, //画笔粗细默认值

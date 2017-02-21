@@ -19,7 +19,7 @@ scroll-view包含的属性：
 示例代码：  
 wxml中：
 
-```
+```xml
 <view class="viewTitle">
     <text class="titleName">ScrollView视图展示</text>
   </view>
@@ -56,7 +56,7 @@ wxml中：
 
 wxss中：
 
-```
+```css
 .flex-wrp {
     height:400rpx;
     display:flex;

@@ -6,7 +6,7 @@
 
 例如，在一个数组中，删掉偶数，只保留奇数，可以这么写：
 
-```
+```js
 var arr = [1, 2, 4, 5, 6, 9, 10, 15];
 var r = arr.filter(function (x) {
     return x % 2 !== 0;
