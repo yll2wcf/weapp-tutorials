@@ -123,7 +123,7 @@
   * [9-5 导航条](chapter9/9-5.md)
   * [9-6 搜索条](chapter9/9-6.md)
   * [9-7 字母列表导航条](chapter9/9-7.md)
-  * 本章小结
+  * [本章小结](chapter9/xiaojie.md)
 * [第十章 综合案例](chapter10.md)
   * [10-1 项目需求](chapter10/10-1/10-1-1.md)
   * [10-2 项目结构](chapter10/10-1/10-1-2.md)
