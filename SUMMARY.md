@@ -68,6 +68,7 @@
     * [3-4-2 RegExp](chapter3/3-4-javascript/3-4-2-regexp.md)
     * [3-4-3 JSON](chapter3/3-4-javascript/3-4-3-json.md)
     * [3-4-4 Math](chapter3/3-4-javascript/3-4-4-math.md)
+  * [本章小结](chapter3/xiaojie.md)
 * [第四章 熟练掌握wxss和wxml](chapter4.md)
 * [第五章 小程序开发基础](chapter5.md)
   * [5.1 全局配置](chapter5/5.1.md)
@@ -115,6 +116,14 @@
   * [本章小结](chapter7/end.md)
 * [第八章 API接口](chapter8.md)
 * [第九章 控件进阶](chapter9.md)
+  * [9-1 九宫格](chapter9/9-1.md)
+  * [9-2 页脚](chapter9/9-2.md)
+  * [9-3 加载更多](chapter9/9-2.md)
+  * [9-4 预览](chapter9/9-3.md)
+  * [9-5 导航条](chapter9/9-5.md)
+  * 9-6 搜索条
+  * [9-7 字母列表导航条](chapter9/9-7.md)
+  * 本章小结
 * [第十章 综合案例](chapter10.md)
   * [10-1 项目需求](chapter10/10-1/10-1-1.md)
   * [10-2 项目结构](chapter10/10-1/10-1-2.md)
