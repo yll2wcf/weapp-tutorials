@@ -118,8 +118,8 @@
 * [第九章 控件进阶](chapter9.md)
   * [9-1 九宫格](chapter9/9-1.md)
   * [9-2 页脚](chapter9/9-2.md)
-  * [9-3 加载更多](chapter9/9-2.md)
-  * [9-4 预览](chapter9/9-3.md)
+  * [9-3 加载更多](chapter9/9-3.md)
+  * [9-4 预览](chapter9/9-4.md)
   * [9-5 导航条](chapter9/9-5.md)
   * 9-6 搜索条
   * [9-7 字母列表导航条](chapter9/9-7.md)
