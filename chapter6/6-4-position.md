@@ -4,7 +4,7 @@
 
 position可能的值有：
 
-* absolute 表示当前元素相对于其父组件绝对定位，使用top，bottom，left，right四个键值来决定其到父组件的最上，最下，最左，最右的距离。
+* absolute 表示当前元素相对于第一个非static属性的父组件绝对定位，使用top，bottom，left，right四个键值来决定其到父组件的最上，最下，最左，最右的距离。
 * fixed 表示当前元素相对于屏幕绝对定位，同样使用top, bottom, left, right来设定位置。
 * relative 表示当前元素相对于上一个同级组件相对定位，使用top，left来设定到上一个同级组件最上沿，最左沿的距离，默认值为0.
 * static 默认值，没有定位，会忽略top，bottom，left，right或z-index的声明。
