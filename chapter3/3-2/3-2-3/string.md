@@ -45,7 +45,7 @@ var message = '你好, ' + name + ', 你今年' + age + '岁了!';
 console.log(message);// 输出 您好小明，你今年20岁了!
 ```
 如果有很多变量需要连接，用`+`号就比较麻烦。ES6新增了一种模板字符串，表示方法和上面的多行字符串一样，但是它会自动替换字符串中的变量：
-```
+```js
 var name = '小明';
 var age = 20;
 var message = `你好, ${name}, 你今年${age}岁了!`;
@@ -53,7 +53,7 @@ console.log(message);// 输出 您好小明，你今年20岁了!
 ```
 #### 操作字符串
 字符串常见的操作如下，通过`lengh`可以获取字符串长度。
-```
+```js
 var s = 'Hello, world!';
 s.length; // 13
 ```
