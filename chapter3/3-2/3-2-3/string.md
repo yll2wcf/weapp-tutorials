@@ -102,7 +102,7 @@ s.toUpperCase(); // 返回'HELLO'
 ```
 ####toLowerCase()
 `toLowerCase()`把一个字符串全部变为小写：
-```
+```js
 var s = 'Hello';
 var lower = s.toLowerCase(); // 返回'hello'并赋值给变量lower
 lower; // 'hello'
