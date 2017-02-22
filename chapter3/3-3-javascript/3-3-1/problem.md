@@ -1,6 +1,6 @@
 ###常见问题
 JavaScript引擎有一个在行末自动添加分号的机制，这本来是个好事,但是这可能让你栽到return语句的一个大坑：
-```
+```js
 //index.js
 Page({
   onLoad: function () {
@@ -14,7 +14,7 @@ function test() {
 
 ```
 上面的代码没有没问题,如果把return语句拆分成两行:
-```
+```js
 function test() {
     return 
         { name: 'test' };
