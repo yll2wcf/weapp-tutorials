@@ -13,7 +13,7 @@ View包含了一些属性：
 示例代码：  
 wxml中：
 
-```
+```xml
 <view class="viewTitle">
   <text>View展示</text>
 </view>
@@ -41,7 +41,7 @@ wxml中：
 
 wxss中，wxss可以直接写css代码设置一些样式。
 
-```
+```css
 .flex-wrp {
     height:200rpx;
     display:flex;
