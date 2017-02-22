@@ -23,7 +23,7 @@ function abs(x) {
 JavaScript的函数其实也是一个特殊对象，上述定义的`abs()`函数实际上是一个函数对象，而函数名`abs`可以视为指向该函数的变量。
 
 因此，第二种定义函数的方式如下：
-```
+```js
 var abs = function (x) {
     if (x >= 0) {
         return x;
