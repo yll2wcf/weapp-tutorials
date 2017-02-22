@@ -1,6 +1,6 @@
 ###定义函数
 在JavaScript中，定义函数用`function`关键字，主要方式如下：
-```
+```js
 function abs(x) {
     if (x >= 0) {
         return x;
