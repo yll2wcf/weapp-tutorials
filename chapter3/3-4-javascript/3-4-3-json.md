@@ -22,7 +22,7 @@ JSON实际上是JavaScript的一个子集。在JSON中，一共就这么几种�
 1. `stringify()` 把JavaScript对象转换成JSON格式的字符串。
 2. `parse()` 把JSON格式的字符串转换成JavaScript对象
 
-```
+```js
 var zhangsan = {
     name: '张三',
     age: 18
@@ -30,7 +30,7 @@ var zhangsan = {
 JSON.stringify(xiaoming); //// {"name":"张三","age":18}
 ```
 
-```
+```js
 //输出 // Object {name: '张三', age: 18}
 JSON.parse('{"name":"张三","age":18}'); 
 ```
