@@ -11,7 +11,7 @@ label 只包含一个 for 属性：
 
 示例代码：
 wxml中：
-```
+```xml
  <view class="page-body">
     <view class="page-section page-section-gap">
       <view class="page-section-title">表单组件在label内</view>
@@ -45,7 +45,7 @@ wxml中：
   </view>
 ```
 js中：
-```
+```js
 Page({
   data: {
     checkboxItems: [

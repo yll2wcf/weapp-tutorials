@@ -35,7 +35,7 @@ picker滚动选择器，从底部弹出，现支持三种样式，通过mode来�
 
 示例代码：
 wxml中：
-```
+```xml
 <view class="picker-view">
   <view>地区选择器</view>
   <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
@@ -57,7 +57,7 @@ wxml中：
 </view>
 ```
 js中：
-```
+```js
 Page({
   data: {
     array: ['美国', '中国', '巴西', '日本'],
