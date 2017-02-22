@@ -96,7 +96,7 @@ console.log(subStr2); //输出 "hel"
 
 `toUpperCase()`把一个字符串全部变为大写：
 
-```
+```js
 var s = 'Hello';
 s.toUpperCase(); // 返回'HELLO'
 ```
