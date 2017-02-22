@@ -7,7 +7,7 @@
 ```
 
 比方说对一个数组求和，就可以用`reduce`实现：
-```
+```js
 var arr = [1, 3, 5, 7, 9];
 arr.reduce(function (x, y) {
     return x + y;
