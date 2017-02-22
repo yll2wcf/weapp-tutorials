@@ -28,7 +28,7 @@ function test() {
 }
 ```
 正确的多行写法是：
-```
+```js
 function test() {
     return { // 这里不会自动加分号，因为{表示语句尚未结束
         name: 'test'
