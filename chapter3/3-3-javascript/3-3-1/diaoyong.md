@@ -25,7 +25,9 @@ abs(-9, 'haha'); // 返回9
 abs(10, 'hehe', null); // 返回10
 ```
 传入的参数比定义的少也没有问题：
-```console.log(abs()); //输出NaN```
+```js
+console.log(abs()); //输出NaN
+```
 
 此时abs(x)函数的参数x将收到undefined，计算结果为NaN。
 
