@@ -13,7 +13,7 @@ form所包含的属性：
 
 示例代码：
 wxml中：
-```
+```xml
 <view class="page-body">
     <form catchsubmit="formSubmit" catchreset="formReset">
       <view class="page-section page-section-gap">
@@ -61,7 +61,7 @@ wxml中：
   </view>
 ```
 js中：
-```
+```js
 Page({
   data: {
     pickerHidden: true,
