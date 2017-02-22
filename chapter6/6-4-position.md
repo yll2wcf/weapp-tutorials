@@ -18,7 +18,7 @@ position可能的值有：
 
 这时的wxss设定为：
 
-```
+```css
 .red{
   display:flex;
   height: 400rpx;
@@ -39,7 +39,7 @@ position可能的值有：
 ```
 然后我们想将绿色部分的文字改成一个白色的小方块，距离绿色的顶端与左端各100rpx，按照我们讲的，这种情况适合使用position属性，首先来看relative是否适用，我们将绿色的view里文字改成新的view：
 
-```
+```xml
 <view class="container">
   <view class="red">red</view>
   <view class="green">
@@ -49,7 +49,7 @@ position可能的值有：
 ```
 然后设定白色view的属性为：
 
-```
+```css
 .white{
   height: 100rpx;
   width: 100rpx;
@@ -72,7 +72,7 @@ position可能的值有：
 
 其实方块并没有消失，而且被移动到了红色view的上方，消失在了背景之中。这是因为，根据absolute的定义，其相对的是第一个非static的父组件，而绿色的view因为没有设定position属性，所以使用默认值static，在系统渲染布局时，对于absolute属性不会根据绿色布局而是一直向上寻找不为static的父组件，最后设定为了相对于整个布局的位置。为了达到我们要的效果，这里我们为绿色的view添加position：relative的属性。
 
-```
+```css
 .green{
   display:flex;
   height: 400rpx;

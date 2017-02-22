@@ -14,7 +14,7 @@
 
 为了实现这一效果，这里采取一个比较简单的做法，为每个标签的每个状态（选中/未选中）创建一个view。
 
-```
+```xml
 <view class="tab">
   <view class="tab-item tab-item-selected" bindtap="tabItemTap" data-view="1" wx:if="{{currentView==1}}">推荐</view>
   <view class="tab-item" data-view="1" bindtap="tabItemTap" wx:if="{{currentView!=1}}">推荐</view>
@@ -24,7 +24,7 @@
   <view class="tab-item" data-view="3" bindtap="tabItemTap" wx:if="{{currentView!=3}}">检索</view>
 </view>
 ```
-```
+```css
 tab-item {
     float:left;
     width:33.333333%;
@@ -42,7 +42,7 @@ tab-item {
 
 在index.js里编写view的点击事件tabItemTap，这个名字跟我们在写wxml时bindtap一致。
 
-```
+```js
 //获取应用实例
 var app = getApp()
 Page({

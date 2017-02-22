@@ -6,7 +6,7 @@ text文本组件，显示文字时使用的组件，类似于HTML中的&lt; span
 示例代码：  
 wxml中：
 
-```
+```xml
 <view class="btn-area">
   <view class="body-view">
     <text>{{text}}</text>
@@ -18,7 +18,7 @@ wxml中：
 
 js中
 
-```
+```js
 var initData = '我是第一行\n我是第二行\n我是第三行'
 var extraLine = [];
 Page({

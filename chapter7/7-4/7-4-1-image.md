@@ -37,7 +37,7 @@ image所包含的属性：
 
 示例代码：
 wxml中：
-```
+```xml
 <view wx:for="{{array}}" wx:for-item="item">
   <view>{{item.text}}</view>
   <view class="image">
@@ -46,7 +46,7 @@ wxml中：
 </view>
 ```
 js中：
-```
+```js
 Page({
   data:{
     array: [{

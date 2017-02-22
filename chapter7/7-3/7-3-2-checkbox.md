@@ -19,7 +19,7 @@ checkbox多选项目。
 示例代码：  
 wxml中：
 
-```
+```xml
 <view class="container">
   <template is="head" data="{{title: 'checkbox'}}" />
   <view class="page-section-title">多选框默认样式
