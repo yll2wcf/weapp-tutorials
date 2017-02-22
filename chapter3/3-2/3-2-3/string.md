@@ -68,14 +68,14 @@ s[12]; // '!'
 s[13]; // undefined 超出范围的索引不会报错，但一律返回undefined
 ```
 **需要特别注意的是，字符串是不可变的，如果对字符串的某个索引赋值，在小程序中会报错**
-```
+```js
 var s = 'Test';
 s[0] = 'X';  //报错
 ```
 
 ####indexOf()
 字符串可以通过调用indexOf()方法找某字符在字符串中的位置。如下:
-```      
+```js      
 var str="hello world";
 var index=str.indexOf('w');
 console.log(index);//输出6 
