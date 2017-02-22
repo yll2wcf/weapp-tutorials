@@ -19,7 +19,7 @@ video所包含的属性：
 
 示例代码：
 wxml中：
-```
+```xml
 <view class="video-view">
   <video id="myVideo" src="视频资源地址"
   danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
@@ -38,7 +38,7 @@ wxml中：
 </view>
 ```
 js中：
-```
+```js
 function getRandomColor() {
   let rgb = []
   for (let i = 0; i < 3; ++i) {
