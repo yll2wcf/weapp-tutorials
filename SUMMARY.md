@@ -77,6 +77,8 @@
   * [5.3 注册程序](chapter5/5.3.md)
   * [5.4 注册页面](chapter5/5.4.md)
     * [5-4-1 页面的生命周期](chapter5/5.4/5-4-1.md)
+    * [5-4-2 页面的事件处理](chapter5/5.4/5-4-2.md)
+    * [5-4-3 页面的数据处理](chapter5/5.4/5-4-3.md)
   * [5.5 简单封装和使用](chapter5/5.5.md)
   * [本章小结](chapter5/end.md)
 * [第六章 flexBox布局](chapter6.md)
