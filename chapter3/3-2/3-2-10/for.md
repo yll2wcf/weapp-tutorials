@@ -53,7 +53,7 @@ for(;;); console.log("I love You Too!");
 ####for ... in
 
 `for`循环的一个变体是`for ... in`循环，它可以把一个对象的所有属性依次循环出来：
-```
+```js
 var o = {
     name: 'Jack',
     age: 20,
