@@ -1,7 +1,7 @@
 ###arguments参数
 
 JavaScript还有一个免费赠送的关键字`arguments`，它只在函数内部起作用，并且永远指向当前函数的调用者传入的所有参数。arguments类似数组但它不是一个数组：
-```
+```js
 //index.js
 Page({
   onLoad: function () {
