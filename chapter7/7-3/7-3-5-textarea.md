@@ -24,7 +24,7 @@ textarea所包含的属性：
 
 示例代码：
 wxml中：
-```
+```xml
 <view class="container">
   <template is="head" data="{{title: 'textarea'}}" />
   <view class="textarea-view">
@@ -43,7 +43,7 @@ wxml中：
 </view>
 ```
 js中：
-```
+```js
 Page({
   data: {
     focus: false

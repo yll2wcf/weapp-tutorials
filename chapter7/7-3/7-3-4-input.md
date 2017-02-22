@@ -24,7 +24,7 @@ input所包含的属性：
 示例代码：  
 wxml中：
 
-```
+```xml
 <view class="container">
   <template is="head" data="{{title: 'input'}}" />
   <view class="page-section">
@@ -93,7 +93,7 @@ wxml中：
 
 js中：
 
-```
+```js
 Page({
   data: {
     focus: false,
@@ -133,7 +133,7 @@ Page({
 })
 ```
 wxss中：
-```
+```css
 .container {
 background-color: lightgrey;
 

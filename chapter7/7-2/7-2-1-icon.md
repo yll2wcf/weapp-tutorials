@@ -12,7 +12,7 @@ icon的属性包括：
 示例代码：  
 wxml中：
 
-```
+```xml
 <view class="group">
   <block wx:for="{{iconSize}}">
     <icon type="success" size="{{item}}"/>
