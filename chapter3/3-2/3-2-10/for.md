@@ -18,7 +18,7 @@ x; // 50005000
 
 for循环最常用的地方是利用索引来遍历数组：
 
-```
+```js
 var arr = ['Apple', 'Google', 'Microsoft'];
 var i, x;
 for (i=0; i<arr.length; i++) {
