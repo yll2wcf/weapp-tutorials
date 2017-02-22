@@ -16,7 +16,7 @@ s; // Set {1, 2, 3, "3"}
 
 通过`add(key)`方法可以添加元素到Set中，可以重复添加，但不会有效果，通过delete(key)方法可以删除元素。
 
-```
+```js
 var s=new Set();
 s.add(1);
 s.add(1);
