@@ -18,7 +18,7 @@ function foo(x) {
 ```
 
 利用arguments，你可以获得调用者传入的所有参数。也就是说，即使函数不定义任何形式参数，还是可以拿到参数的值：
-```
+```js
 function abs() {
     if (arguments.length === 0) {
         return 0;
