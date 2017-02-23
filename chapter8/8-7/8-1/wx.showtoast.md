@@ -30,7 +30,7 @@ toastTap: function () {
   },
 ```
 
-运行结果：
+运行结果（图8-7-1）：
 
-![](/assets/8-7-1.png)
+![](/assets/8-7-1.png)图8-7-1
 
