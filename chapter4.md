@@ -5,5 +5,5 @@ WXML(WeiXin Markup Language) 是框架设计的一套类似HTML的标签语言,�
 
 WXSS(WeiXin Style Sheets)是一套非常类似CSS样式语言，用于描述WXML的组件样式。它将决定WXML的组件应该怎么显示。
 
-
+这一章我们主要来学习下WXML和WXSS。
 
