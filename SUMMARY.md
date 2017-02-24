@@ -76,7 +76,7 @@
     * [4-2-3 列表渲染](chapter4/4-2-wxml/4-2-3.md)
     * [4-2-4 模板](chapter4/4-2-wxml/4-2-4.md)
     * [4-2-5 事件绑定](chapter4/4-2-wxml/4-2-5.md)
-    * 4-2-6 引用
+    * [4-2-6 引用](chapter4/4-2-wxml/4-2-6.md)
   * [4-2 wxss语法](chapter4/4-2-wxss.md)
   * [4-3 wxss常见的样式](chapter4/4-3-wxss.md)
   * [4-4 css和wxss的区别](chapter4/4-3-csswxss.md)
