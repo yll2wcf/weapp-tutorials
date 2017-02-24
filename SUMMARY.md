@@ -71,6 +71,7 @@
 * [第四章 熟练掌握wxss和wxml](chapter4.md)
   * [4-1 WXML和HTML的差异](chapter4/4.1-wxmlhtml.md)
   * [4-2 WXML语法详解](chapter4/4-2-wxml.md)
+    * [4-2-1 数据绑定](chapter4/4-2-wxml/4-2-1.md)
   * [4-2 wxss语法](chapter4/4-2-wxss.md)
   * [4-3 wxss常见的样式](chapter4/4-3-wxss.md)
   * [4-4 css和wxss的区别](chapter4/4-3-csswxss.md)
