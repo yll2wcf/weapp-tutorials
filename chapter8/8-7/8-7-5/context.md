@@ -53,21 +53,21 @@ wx.drawCanvas({
 #####canvasToTempFilePath(OBJECT)
 把当前画布的内容导出生成图片，并返回文件路径
 
-OBJECT参数说明
+OBJECT参数说明：
 
-参数	类型	必填	说明
+|参数	|类型	|必填	|说明|
 | :--- | :--- | :--- |:--- |
+|canvasId	|String|	是	|画布标识，传入画布的cavas-id|
+|success	|Function	|否	|接口调用成功的回调函数|
+|fail	|Function	|否	|接口调用失败的回调函数|
+|complete	|Function	|否	|接口调用结束的回调函数（调用成功、失败都会执行）|
 
-
-canvasId	String	是	画布标识，传入 <canvas/> 的 cavas-id
-success	Function	否	接口调用成功的回调函数
-fail	Function	否	接口调用失败的回调函数
-complete	Function	否	接口调用结束的回调函数（调用成功、失败都会执行）
-示例代码
-
+示例代码：
+```js
 wx.canvasToTempFilePath({
   canvasId: 'myCanvas',
-  success(res) {
+  success(res) {                       //成功后控制台输出文件保存路径
     console.log(res.tempFilePath)
   } 
 })
+```
