@@ -44,4 +44,5 @@ actionSheetTap: function () {
 ```
 
 运行结果（图8-7-3）：
+
 ![](/assets/8-7-3.png)图8-7-3
