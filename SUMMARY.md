@@ -69,10 +69,11 @@
     * [3-4-4 Math](chapter3/3-4-javascript/3-4-4-math.md)
   * [本章小结](chapter3/xiaojie.md)
 * [第四章 熟练掌握wxss和wxml](chapter4.md)
-  * [4-1 wxml和html的差异](chapter4/4.1-wxmlhtml.md)
+  * [4-1 WXML和HTML的差异](chapter4/4.1-wxmlhtml.md)
   * [4-2 wxss语法](chapter4/4-2-wxss.md)
   * [4-3 wxss常见的样式](chapter4/4-3-wxss.md)
   * [4-4 css和wxss的区别](chapter4/4-3-csswxss.md)
+  * 4-2 WXML语法详解
 * [第五章 小程序开发基础](chapter5.md)
   * [5.1 全局配置](chapter5/5.1.md)
   * [5.2 页面配置](chapter5/5.2.md)
