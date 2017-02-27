@@ -1,13 +1,17 @@
 # 7-3-2 checkbox
 
 复选框,为用户提供一系列选项，用户可以选择多个。  
-checkbox-group多项选择器，内部由多个checkbox组成。
+checkbox-group多项选择器，内部由多个checkbox组成，如表7-10所示。
+
+表7-10
 
 | 属性名 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
 | bindchange | EventHandle |  | checkbox-group中选中项发生改变是触发 change 事件，detail = {value:\[选中的checkbox的value的数组\]} |
 
-checkbox多选项目。
+checkbox多选项目，如表7-11所示。
+
+表7-11
 
 | 属性名 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
