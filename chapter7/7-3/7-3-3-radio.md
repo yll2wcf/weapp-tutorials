@@ -48,5 +48,5 @@ wxml中：
 
 ![](/assets/图7-9 radio组件示例运行效果图.png)
 
-
+图7-9 radio组件示例运行效果图
 
