@@ -94,6 +94,8 @@ wxss中：
 
 ![](/assets/图7-2 scroll-view组件演示.png)
 
+图7-2 scroll-view组件示例运行效果图
+
 **注意:**
 
 * 请勿在 scroll-view 中使用 textarea、map、canvas、video 组件
