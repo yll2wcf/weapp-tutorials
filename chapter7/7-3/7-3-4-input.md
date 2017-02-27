@@ -164,6 +164,7 @@ background-color: lightgrey;
 
 ![](/assets/图7-10 input组件示例运行效果图.png)
 
+图7-10 input组件示例运行效果图
 
 **注意：**
 * 微信版本 6.3.30, focus 属性设置无效。
