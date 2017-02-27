@@ -73,8 +73,8 @@
   * [4-2 WXML语法详解](chapter4/4-2-wxml.md)
     * [4-2-1 数据绑定](chapter4/4-2-wxml/4-2-1.md)
       * [简单绑定](chapter4/4-2-wxml/4-2-1/简单绑定.md)
-      * 运算
-      * 组合
+      * [运算](chapter4/4-2-wxml/4-2-1/运算.md)
+      * [组合](chapter4/4-2-wxml/4-2-1/组合.md)
     * [4-2-2 条件渲染](chapter4/4-2-wxml/4-2-2.md)
     * [4-2-3 列表渲染](chapter4/4-2-wxml/4-2-3.md)
     * [4-2-4 模板](chapter4/4-2-wxml/4-2-4.md)
