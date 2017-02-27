@@ -1,6 +1,9 @@
 #7-3-11 switch
 switch 开关选择器。
-switch 所包含的属性：
+switch 所包含的属性，如表7-23所示：
+
+表7-23
+
 | 属性名 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
 | checked | Boolean | false | 是否选中 |
@@ -52,3 +55,4 @@ Page(pageData)
 
 ![](/assets/图7-16 switch组件示例运行效果图.png)
 
+图7-16 switch组件示例运行效果图

@@ -2,7 +2,9 @@
 
 form表单，将组件内的用户输入的 switch、input、checkbox、slider、radio、picker 标签提交。  
 当点击 form 标签中 formType 为 submit 的 button 组件时，会将表单组件中的 value 值进行提交，需要在表单组件中加上 name 来作为 key。  
-form所包含的属性：
+form所包含的属性，如表7-16所示：
+
+表7-16
 
 | 属性名 | 类型 | 说明 |
 | :--- | :--- | :--- |
@@ -101,6 +103,6 @@ Page({
 
 ![](/assets/图7-12 form组件示例运行效果图.png)
 
-
+图7-12 form组件示例运行效果图
 
 

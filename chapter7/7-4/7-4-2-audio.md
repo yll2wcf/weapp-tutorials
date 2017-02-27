@@ -1,7 +1,9 @@
 # 7-4-2 audio
 
 audio音频，用来加入一段音频，使页面更加丰富。  
-audio 所包含的属性：
+audio 所包含的属性，如表7-27所示：
+
+表7-27
 
 | 属性名 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
@@ -18,7 +20,9 @@ audio 所包含的属性：
 | bindtimeupdate | EventHandle |  | 当播放进度改变时触发 timeupdate 事件，detail = {currentTime, duration} |
 | bindended | EventHandle |  | 当播放到末尾时触发 ended 事件 |
 
-MediaError.code
+MediaError.code 错误码，如表7-28所示
+
+表7-28
 
 | 错误码 | 说明 |
 | :--- | :--- |
@@ -84,7 +88,7 @@ Page({
 
 ![](/assets/图7-18 audio组件示例运行效果图.png)
 
-
+图7-18 audio组件示例运行效果图
 
 
 
