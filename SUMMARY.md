@@ -134,6 +134,8 @@
   * [本章小结](chapter7/end.md)
 * [第八章 API接口](chapter8.md)
   * [8-1 网络相关](chapter8/8-1.md)
+    * [8-1-1 发送请求](chapter8/8-1/8-1-1.md)
+    * [8-1-2 上传下载](chapter8/8-1/8-1-2.md)
   * [8-2 多媒体](chapter8/8-2.md)
   * [8-3 文件](chapter8/8-3.md)
   * [8-4 数据缓存](chapter8/8-4.md)
