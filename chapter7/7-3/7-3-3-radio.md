@@ -1,13 +1,17 @@
 # 7-3-3 radio
 
 单选框，为用户提供一系列选项，用户可以选择其中一项。与多选框checkbox类似。  
-radio-group单项选择器，内部由多个&lt; radio/&gt;组成。
+radio-group单项选择器，内部由多个&lt; radio/&gt;组成，如表7-12所示。
+
+表7-12
 
 | 属性名 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
 | bindchange | EventHandle |  | &lt; radio-group/&gt; 中的选中项发生变化时触发 change 事件，event.detail = {value: 选中项radio的value} |
 
-radio单选项目。
+radio单选项目，如表7-13所示。
+
+表7-13
 
 | 属性名 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
