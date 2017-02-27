@@ -140,6 +140,7 @@
       * [wx.connectSocket](chapter8/8-1/8-1-3-websocket/wx.connectsocket.md)
       * [wx.onSocketOpen](chapter8/8-1/8-1-3-websocket/wx.onsocketopen.md)
       * [wx.onSocketError](chapter8/8-1/8-1-3-websocket/wx.onsocketerror.md)
+      * [wx.sendSocketMessage](chapter8/8-1/8-1-3-websocket/wx.sendsocketmessage.md)
   * [8-2 多媒体](chapter8/8-2.md)
   * [8-3 文件](chapter8/8-3.md)
   * [8-4 数据缓存](chapter8/8-4.md)
