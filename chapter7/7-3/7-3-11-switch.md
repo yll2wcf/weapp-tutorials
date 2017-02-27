@@ -55,3 +55,4 @@ Page(pageData)
 
 ![](/assets/图7-16 switch组件示例运行效果图.png)
 
+图7-16 switch组件示例运行效果图
