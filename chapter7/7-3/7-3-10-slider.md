@@ -1,6 +1,9 @@
 #7-3-10 slider
 slider 滑块选择器。
-slider 所包含的属性：
+slider 所包含的属性，如表7-22所示：
+
+表7-22
+
 | 属性名 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
 | min | Number | 0 | 最小值 || max | Number | 100 | 最大值 |
@@ -10,7 +13,7 @@ slider 所包含的属性：
 | color | Color | \#e9e9e9 | 背景条的颜色 |
 | selected-color | Color | \#1aad19 | 已选择的颜色 |
 | show-value | Boolean | false | 是否显示当前 value |
-| bindchange | EventHandle | | 完成一次拖动后触发的事件，event.detail = {value: value} |
+| bindchange | EventHandle | | 完成一次拖动后触发的事件，event.detail = {value: value} |
 示例代码：
 wxml：
 ```xml
@@ -42,7 +45,7 @@ for(var i = 1; i < 5; ++i) {
   })(i);
 }
 Page(pageData)
-```
+```
 运行效果如图7-15所示：
 
 ![](/assets/图7-15 slider组件示例运行效果图.png)
