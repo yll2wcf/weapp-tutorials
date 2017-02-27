@@ -180,3 +180,44 @@ Page({
 |x	|Number	|结束点的x坐标|
 |y	|Number	|结束点的y坐标|
 
+#####bezierCurveTo
+
+创建三次方贝塞尔曲线路径。与二次贝塞尔曲线类似，控制点由1个变为2个。
+
+参数：
+
+|参数	|类型	|说明|
+| :--- | :--- | :--- |
+|cp1x	|Number	|第一个贝塞尔控制点的 x 坐标|
+|cp1y	|Number	|第一个贝塞尔控制点的 y 坐标|
+|cp2x	|Number	|第二个贝塞尔控制点的 x 坐标|
+|cp2y	|Number	|第二个贝塞尔控制点的 y 坐标|
+|x	|Number	|结束点的 x 坐标|
+|y	|Number	|结束点的 y 坐标|
+
+示例代码：
+
+```js
+Page({
+  onLoad: function () {
+    const ctx = wx.createCanvasContext('myCanvas')
+    //二次贝塞尔曲线，颜色为红色
+    ctx.beginPath()
+    ctx.moveTo(20, 20)
+    ctx.quadraticCurveTo(20, 100, 200, 20)
+    ctx.setStrokeStyle('red')
+    ctx.stroke()
+    //三次贝塞尔曲线，颜色为绿色
+    ctx.beginPath()
+    ctx.moveTo(20, 20)
+    ctx.bezierCurveTo(20, 100, 200, 100, 200, 20)
+    ctx.setStrokeStyle('green')
+    ctx.stroke()
+
+    ctx.draw()
+  },
+})
+```
+
+运行结果如图8-7-22：
+![](/assets/8-7-22.png)图8-7-22
