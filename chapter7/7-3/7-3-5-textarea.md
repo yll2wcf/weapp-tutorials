@@ -60,7 +60,7 @@ Page({
 
 ![](/assets/图7-11 textarea组件示例运行效果图.png)
 
-
+图7-11 textarea组件示例运行效果图
 
 
 **注意：**
