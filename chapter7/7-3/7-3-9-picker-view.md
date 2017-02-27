@@ -1,11 +1,14 @@
 #7-3-9 picker-view
 picker-view嵌入页面的滚动选择器，可以自定义显示内容和样式。
-picker-view所包含的属性：
+picker-view所包含的属性，如表7-21所示：
+
+表7-21
+
 | 属性名 | 类型 | 说明 |
 | :--- | :--- | :--- |
 | value | Number Array | 数组中的数字依次表示 picker-view 内的 picker-view-colume 选择的第几项（下标从 0 开始），数字大于 picker-view-column 可选项长度时，选择最后一项。 |
 | indicator-style | String | 设置选择器中间选中框的样式 |
-| bindchange | EventHandle | 当滚动选择，value 改变时触发 change 事件，event.detail = {value: value}；value为数组，表示 picker-view 内的 picker-view-column 当前选择的是第几项（下标从 0 开始） |
+| bindchange | EventHandle | 当滚动选择，value 改变时触发 change 事件，event.detail = {value: value}；value为数组，表示 picker-view 内的 picker-view-column 当前选择的是第几项（下标从 0 开始） |
 
 示例代码：
 wxml中：
