@@ -112,7 +112,7 @@ Page({
 
 ![](/assets/图7-14 picker组件示例运行效果图.png)
 
-
+图7-14 picker组件示例运行效果图
 
 
 
