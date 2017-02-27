@@ -153,7 +153,7 @@
       * [wx.navigateBack](chapter8/8-7/8-7-3/wx.navigateback.md)
     * [8-7-4 动画](chapter8/8-7/8-7-4.md)
     * [8-7-5 绘画](chapter8/8-7/8-7-5.md)
-      * [context对象的方法列表](chapter8/8-7/8-7-5/context.md)
+      * [获取context对象](chapter8/8-7/8-7-5/context.md)
       * [颜色，样式，阴影](chapter8/8-7/8-7-5/color.md)
       * [渐变](chapter8/8-7/8-7-5/a.md)
       * [线条样式](chapter8/8-7/8-7-5/b.md)
