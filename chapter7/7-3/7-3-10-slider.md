@@ -49,3 +49,5 @@ Page(pageData)
 运行效果如图7-15所示：
 
 ![](/assets/图7-15 slider组件示例运行效果图.png)
+
+图7-15 slider组件示例运行效果图
