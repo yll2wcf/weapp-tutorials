@@ -11,3 +11,32 @@ OBJECT参数说明，如表8-7所示：
 | success | Function | 否 | 接口调用成功的回调函数 |
 | fail | Function | 否 | 接口调用失败的回调函数 |
 | complete | Function | 否 | 接口调用结束的回调函数（调用成功、失败都会执行）|
+
+
+示例代码：
+```js
+var socketOpen = false
+var socketMsgQueue = []
+wx.connectSocket({
+  url: 'test.php'
+})
+
+wx.onSocketOpen(function(res) {
+  socketOpen = true
+  for (var i = 0; i < socketMsgQueue.length; i++){
+     sendSocketMessage(socketMsgQueue[i])
+  }
+  socketMsgQueue = []
+})
+
+function sendSocketMessage(msg) {
+  if (socketOpen) {
+    wx.sendSocketMessage({
+      data:msg
+    })
+  } else {
+     socketMsgQueue.push(msg)
+  }
+}
+```
+
