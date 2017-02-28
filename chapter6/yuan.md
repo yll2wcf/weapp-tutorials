@@ -58,7 +58,7 @@
 ```
 #### flex
 
-前面三种属性的缩写，第二个值（flex-shrink）与第三个值（flex-basis）可以省略，默认值为 0 1 auto。
+前面三种属性的缩写，第二个值（flex-shrink）与第三个值（flex-basis）可以省略，默认值为“0 1 auto”。
 
 ```css
 .child{
