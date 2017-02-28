@@ -56,9 +56,9 @@
 	flex-basis: 0 | auto ;
 }
 ```
-#### flex
+##### flex
 
-前面三种属性的缩写，第二个值（flex-shrink）与第三个值（flex-basis）可以省略，默认值为“0 1 auto”。
+前面三种属性的缩写，第二个值（flex-shrink）与第三个值（flex-basis）可以省略，默认值为“0 1 auto”，相当于同时设定了“flex-grow:0;flex-shrink:1;flex-basis:auto”。
 
 ```css
 .child{
@@ -67,9 +67,9 @@
 ```
 这里建议使用flex而不是分别设置三个属性，使用flex会智能的设置其他的属性。
 
-###### align-self
+##### align-self
 
-用来覆盖父组件样式中的alignItems的值，是子元素拥有自己想要的对齐方式。
+用来覆盖父组件样式中的alignItems的值，使子元素拥有自己想要的对齐方式。
 
 ```css
 .child{
