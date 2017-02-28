@@ -50,3 +50,11 @@ Page({
 |参数	|类型	|说明|
 | :--- | :--- | :--- |
 |reserve	|Boolean	|非必填。本次绘制是否接着上一次绘制，即reserve参数为false，则在本次调用drawCanvas绘制之前native层应先清空画布再继续绘制；若reserver参数为true，则保留当前画布上的内容，本次调用drawCanvas绘制的内容覆盖在上面，默认false|
+
+#####getActions (不推荐使用)
+返回绘图上下文的绘图动作。
+
+#####clearActions (不推荐使用)
+清空绘图上下文的绘图动作。
+
+最后这两个方法主要配合drawCanvas使用，官方不推荐使用这种方法使用画布组件。
