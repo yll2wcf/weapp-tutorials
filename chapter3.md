@@ -1,4 +1,4 @@
-#JavaScript语法
+#第三章 JavaScript语法
 >问题来了，为什么我们要学JavaScript？
 
 简单粗暴的回答就是：因为你没有选择。小程序主要的逻辑功能都是通过JavaScript实现的。
