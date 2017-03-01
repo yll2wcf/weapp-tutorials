@@ -132,7 +132,7 @@ wx.closeSocket()
 关闭WebSocket连接。
 
 
-#wx.onSocketClose
+####wx.onSocketClose
 wx.onSocketClose(CALLBACK)
 监听WebSocket关闭。
 示例代码：
