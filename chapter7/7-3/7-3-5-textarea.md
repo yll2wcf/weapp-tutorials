@@ -1,7 +1,7 @@
-# 7-3-5 textarea
+# 7.3.5 textarea
 
-textarea多行输入框，与input类似，相当于文本编辑器，可以输入多行文字。
-textarea所包含的属性，如表7-15所示：
+textarea 多行输入框，与input类似，相当于文本编辑器，可以输入多行文字。
+textarea 所包含的属性，如表7-15所示：
 
 表7-15
 
