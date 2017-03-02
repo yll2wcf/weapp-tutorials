@@ -4,11 +4,12 @@
 
 ```xml
 <tagname property="value">
-  Content goes here ...
+  //Content goes here ...
 </tagename>
 ```
 
-注意：所有组件与属性都是小写，以连字符-连接
+**注意：**
+* 所有组件与属性都是小写，以连字符-连接
 
 ### 共同属性类型
 

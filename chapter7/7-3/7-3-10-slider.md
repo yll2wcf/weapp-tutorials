@@ -1,4 +1,4 @@
-#7-3-10 slider
+##7.3.10 slider
 slider 滑块选择器。
 slider 所包含的属性，如表7-22所示：
 
