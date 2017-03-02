@@ -1,4 +1,4 @@
-##### wx.navigateBack(OBJECT)
+###wx.navigateBack(OBJECT)
 
 关闭当前页面，返回上一页面或多级页面。可通过 getCurrentPages()) 获取当前的页面栈，决定需要返回几层。
 

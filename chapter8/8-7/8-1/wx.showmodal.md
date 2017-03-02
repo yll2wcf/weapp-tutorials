@@ -1,4 +1,4 @@
-##### wx.showModal(OBJECT)
+###wx.showModal(OBJECT)
 
 显示模拟弹窗，即带交互按钮的提示框。
 

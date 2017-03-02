@@ -1,4 +1,4 @@
-##### wx.showToast(OBJECT)
+###wx.showToast(OBJECT)
 显示消息提示框
 
 OBJECT参数说明（表8-54）：
