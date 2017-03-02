@@ -98,10 +98,10 @@ wxss中：
 
 **注意:**
 
-* 请勿在 scroll-view 中使用 textarea、map、canvas、video 组件
-* scroll-into-view 的优先级高于 scroll-top
-* 在滚动 scroll-view 时会阻止页面回弹，所以在 scroll-view 中滚动，是无法触发 onPullDownRefresh
-* 若要使用下拉刷新，请使用页面的滚动，而不是 scroll-view ，这样也能通过点击顶部状态栏回到页面顶部
+* 请勿在`scroll-view`中使用`textarea`、`map`、`canvas`、`video`组件。
+* `scroll-into-view`的优先级高于`scroll-top`。
+* 在滚动`scroll-view`时会阻止页面回弹，所以在`scroll-view`中滚动，是无法触发`onPullDownRefresh`。
+* 若要使用下拉刷新，请使用页面的滚动，而不是`scroll-view`，这样也能通过点击顶部状态栏回到页面顶部。    
 
 
 
