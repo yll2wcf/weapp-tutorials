@@ -1,4 +1,4 @@
-##### wx.showActionSheet(OBJECT)
+###wx.showActionSheet(OBJECT)
 
 显示操作菜单，形式为底部弹出的选择按钮。
 

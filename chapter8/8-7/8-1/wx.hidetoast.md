@@ -1,4 +1,4 @@
-##### wx.hideToast()
+###wx.hideToast()
 
 隐藏消息提示框
 
