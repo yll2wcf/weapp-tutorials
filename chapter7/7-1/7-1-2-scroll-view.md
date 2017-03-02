@@ -1,7 +1,7 @@
-# 7-1-2 scroll-view
+# 7.1.2 scroll-view
 
-scroll-view组件，它用来定义一个可滚动的视图区域，相当于ios开发中的UIScrollView。里面的内容如果超过这个区域的宽或高时，就会出现滚动条。  
-scroll-view包含的属性，如表7-5所示：
+scroll-view 组件，它用来定义一个可滚动的视图区域，相当于ios开发中的 UIScrollView 。里面的内容如果超过这个区域的宽或高时，就会出现滚动条。  
+scroll-view 包含的属性，如表7-5所示：
 
 表7-5
 
