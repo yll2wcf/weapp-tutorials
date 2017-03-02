@@ -1,4 +1,4 @@
-#4-4 css和wxss的区别
+##4.4 css和wxss的区别
 
 WXSS具有CSS大部分特性，同时为了满足小程序开发的要求（主要体现在不同手机屏幕的适配问题），WXSS对CSS进行了扩充修改，与CSS相比，WXSS的特性有：
 
@@ -9,13 +9,15 @@ WXSS具有CSS大部分特性，同时为了满足小程序开发的要求（主�
 
 WXSS新增的两种尺寸单位为：rpx与rem，和原有尺寸相比，这两种尺寸单位会根据手机屏幕尺寸而改变，从而更好地适配不同尺寸的屏幕。
 
-rpx（responsive pixel）: 可以根据屏幕宽度进行自适应。规定屏幕宽为750rpx。如在iPhone6上，屏幕宽度为375px，共有750个物理像素，则750rpx = 375px = 750物理像素，1rpx = 0.5px = 1物理像素。
+rpx（responsive pixel）: 可以根据屏幕宽度进行自适应。规定屏幕宽为750rpx。如在iPhone6上，屏幕宽度为375px，共有750个物理像素，则750rpx = 375px = 750物理像素，1rpx = 0.5px = 1物理像素。在不同尺寸手机上rpx和px转换算法如表4-3所示
+
+表4-3
 
 |设备	|rpx换算px (屏幕宽度/750)	|px换算rpx (750/屏幕宽度)|
 |:--|:--|:--|
 |iPhone5	|1rpx = 0.42px	|1px = 2.34rpx|
-|iPhone6	|1rpx = 0.5px	|1px = 2rpx|
-|iPhone6s	|1rpx = 0.552px	|1px = 1.81rpx|
+|iPhone6/7	|1rpx = 0.5px	|1px = 2rpx|
+|iPhone6/7 plus	|1rpx = 0.552px	|1px = 1.81rpx|
 rem（root em）: 规定屏幕宽度为20rem；1rem = (750/20)rpx 。
 
 建议在开发微信小程序时设计师可以用iPhone6作为视觉稿的标准，模拟器默认的设备也是iphone6。
