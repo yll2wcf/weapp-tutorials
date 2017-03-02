@@ -1,4 +1,4 @@
-#7.6.1 navigator
+##7.6.1 navigator
 navigator 导航组件，类似于HTML中的`<a>`标签，但无`target`属性，默认跳转到新页面，redirect为在当前页面打开。
 navigator 所包含的属性，如表7-36所示：
 

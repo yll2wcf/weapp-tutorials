@@ -1,4 +1,4 @@
-# 7.2.3 progress
+##7.2.3 progress
 
 progress 进度条，开发者可以通过改变属性来控制进度条样式。  
 progress 包含的属性，如表7-8所示：

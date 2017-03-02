@@ -1,4 +1,4 @@
-# 7.3.2 checkbox
+##7.3.2 checkbox
 
 复选框,为用户提供一系列选项，用户可以选择多个。  
 checkbox-group 多项选择器，内部由多个`checkbox`组成，如表7-10所示。

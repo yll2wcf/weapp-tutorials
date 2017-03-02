@@ -1,4 +1,4 @@
-# 7.4.3 video
+##7.4.3 video
 
 video 视频，用来加入视频播放功能，使页面更加丰富。video 标签认宽度300px、高度225px，设置宽高需要通过wxss设置width和height。  
 video 所包含的属性，如表7-29所示：

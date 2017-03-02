@@ -1,4 +1,4 @@
-#7.3.9 picker-view
+##7.3.9 picker-view
 picker-view 嵌入页面的滚动选择器，可以自定义显示内容和样式。
 picker-view 所包含的属性，如表7-21所示：
 

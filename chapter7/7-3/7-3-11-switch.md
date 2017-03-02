@@ -1,4 +1,4 @@
-#7.3.11 switch
+##7.3.11 switch
 switch 开关选择器。
 switch 所包含的属性，如表7-23所示：
 
