@@ -1,6 +1,6 @@
-#7-7-1 canvas
-canvas画布组件，可用于画出任意形状，实现页面动画，canvas 标签默认宽度300px、高度225px。并且同一页面中的 canvas-id 不可重复，如果使用一个已经出现过的 canvas-id，该 canvas 标签对应的画布将被隐藏并不再正常工作
-canvas所包含的属性，如表7-37所示：
+##7.7.1 canvas
+canvas 画布组件，可用于画出任意形状，实现页面动画，canvas 标签默认宽度300px、高度225px。并且同一页面中的 canvas-id 不可重复，如果使用一个已经出现过的 canvas-id，该 canvas 标签对应的画布将被隐藏并不再正常工作
+canvas 所包含的属性，如表7-37所示：
 
 表7-37
 
@@ -121,9 +121,9 @@ Page({
 ```
 **注意:**
 
-* canvas 组件是由客户端创建的原生组件，它的层级是最高的。
-* 请勿在 scroll-view 中使用 canvas 组件。
-* css 动画对 canvas 组件无效。
+* `canvas`组件是由客户端创建的原生组件，它的层级是最高的。
+* 请勿在`scroll-view`中使用`canvas`组件。
+* css 动画对`canvas`组件无效。
 
 
 
