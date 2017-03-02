@@ -1,4 +1,4 @@
-#3.4.3 JSON
+##3.4.3 JSON
 JSON是JavaScript Object Notation的缩写，它是一种数据交换格式。我们在进行网络请求传输数据的时候，基本上都用JSON传输了。
 
 JSON实际上是JavaScript的一个子集。在JSON中，一共就这么几种数据类型：

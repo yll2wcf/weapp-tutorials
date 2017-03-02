@@ -1,4 +1,4 @@
-#4.JavaScript标准对象
+#3.4 JavaScript标准对象
 
 在JavaScript语言中，你可以认为一切都是对象，我们通常用`typeof`操作符获取对象的类型，它总是返回一个字符串：
 ```js

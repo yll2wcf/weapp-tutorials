@@ -10,7 +10,7 @@
 ```
 包含的字符是`I`，`'`，`m`，`空格`，`O`，`K`这6个字符。
 
-####转义符号
+**转义符号**
 
 如果字符串内部既包含单引号`'`又包含双引号`"`怎么办？可以用转义字符`\`来标识，比如：
 ```js
@@ -28,7 +28,7 @@ ASCII字符可以以\x##形式的十六进制表示，例如：
 ```
 '\u4e2d\u6587'; // 完全等同于 '中文'
 ```
-####多行字符串
+**多行字符串**
 
 由于多行字符串用`\n`写起来比较费事，所以最新的ES6标准新增了一种多行字符串的表示方法，用\` ... \`表示,反引号是键盘数字1旁边的按键：
 ```js
@@ -36,7 +36,8 @@ ASCII字符可以以\x##形式的十六进制表示，例如：
               多行
               字符串`);
 ```
-#### 模板字符串
+**模板字符串**
+
 要把多个字符串连接起来，可以用`+`号连接：
 ```js
 var name = '小明';
@@ -51,7 +52,8 @@ var age = 20;
 var message = `你好, ${name}, 你今年${age}岁了!`;
 console.log(message);// 输出 您好小明，你今年20岁了!
 ```
-#### 操作字符串
+**操作字符串**
+
 字符串常见的操作如下，通过`lengh`可以获取字符串长度。
 ```js
 var s = 'Hello, world!';
@@ -73,7 +75,8 @@ var s = 'Test';
 s[0] = 'X';  //报错
 ```
 
-####indexOf()
+**indexOf()**
+
 字符串可以通过调用indexOf()方法找某字符在字符串中的位置。如下:
 ```js      
 var str="hello world";
@@ -82,7 +85,8 @@ console.log(index);//输出6
 ```
 没有找到输出-1。
 
-####substring()
+**substring()**
+
 字符串可以通过substring()方法截取字符串的一部分,返回新的字符串。
 ```js
 var str="hello world";
@@ -92,7 +96,7 @@ var subStr2=str.substr(0,3);//从索引0开始，到索引3结束，但不包括
 console.log(subStr2); //输出 "hel" 
 ```
 
-####toUpperCase()
+**toUpperCase()**
 
 `toUpperCase()`把一个字符串全部变为大写：
 
@@ -100,7 +104,8 @@ console.log(subStr2); //输出 "hel"
 var s = 'Hello';
 s.toUpperCase(); // 返回'HELLO'
 ```
-####toLowerCase()
+**toLowerCase()**
+
 `toLowerCase()`把一个字符串全部变为小写：
 ```js
 var s = 'Hello';
