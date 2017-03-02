@@ -68,4 +68,5 @@ Page({
   }
 })
 ```
-**注意：**picker-view中只可放置picker-view-column组件，放置其他标签不会显示。picker-view-column其孩子节点的高度会自动设置成与picker-view的选中框的高度一致。
+**注意：**
+* picker-view 中只可放置`<picker-view-column/>`组件，放置其他标签不会显示。picker-view-column 其孩子节点的高度会自动设置成与picker-view的选中框的高度一致。
