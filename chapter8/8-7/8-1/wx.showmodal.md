@@ -39,5 +39,5 @@ modalTap: function () {
 ```
 
 运行结果（图8-7）：
-![](/assets/8-7.png)图8-7
+![](/assets/8-7.png)图8-7 Modal示意图
 

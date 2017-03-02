@@ -33,5 +33,5 @@ toastTap: function () {
 
 运行结果（图8-6）：
 
-![](/assets/8-6.png)图8-6
+![](/assets/8-6.png)图8-6 Toast示意图
 
