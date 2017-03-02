@@ -16,7 +16,7 @@ textarea 所包含的属性，如表7-15所示：
 | auto-focus | Boolean | false | 自动聚焦，拉起键盘。 |
 | focus | Boolean | false | 获取焦点 |
 | auto-height | Boolean | false | 是否自动增高，设置auto-height时，style.height不生效 |
-| fixed | Boolean | false | 如果 textarea 是在一个 position:fixed 的区域，需要显示指定属性 fixed 为 true |
+| fixed | Boolean | false | 如果 textarea 是在一个`position:fixed`的区域，需要显示指定属性 fixed 为 true |
 | cursor-spacing | Number | 0 | 指定光标与键盘的距离，单位 px 。取 textarea 距离底部的距离和 cursor-spacing 指定的距离的最小值作为光标与键盘的距离 |
 | bindfocus | EventHandle |  | 输入框聚焦时触发，event.detail = {value: value} |
 | bindblur | EventHandle |  | 输入框失去焦点时触发，event.detail = {value: value} |
