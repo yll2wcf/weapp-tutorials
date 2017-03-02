@@ -70,6 +70,6 @@ wxss中，wxss可以直接写css代码设置一些样式。
 
 运行效果如图7-1所示：
 
-![](/assets/图7-1 view组件演示.png)
+![](/assets/图7-1view组件示例运行效果图.png)
 
 图7-1 view组件示例运行效果图
