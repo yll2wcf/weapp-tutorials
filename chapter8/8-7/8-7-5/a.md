@@ -1,6 +1,6 @@
-####渐变
+##渐变
 
-#####createLinearGradient
+###createLinearGradient
 创建一个线性的渐变颜色。需要使用 addColorStop() 来指定渐变点，至少要两个。
 
 参数（表8-76）：
@@ -33,7 +33,7 @@ Page({
 ![](/assets/8-20.png)图8-20
 在这个例子中，水平方向（x方向）与垂直方向（y方向）都添加了渐变，如果只想要一个方向，则另一个方向上两个数值都设置为0即可。例如如果改成ctx.createLinearGradient(0, 0, 150, 0)则只有水平方向有渐变效果。
 
-#####createCircularGradient
+###createCircularGradient
 创建一个圆形的渐变颜色。起点在圆心，终点在圆环。同样需要使用 addColorStop() 来指定渐变点，至少要两个。
 
 参数（表8-77）：
@@ -64,7 +64,7 @@ Page({
 运行结果（图8-21）：
 ![](/assets/8-21.png)图8-21
 
-#####addColorStop
+###addColorStop
 创建一个颜色的渐变点。小于最小 stop 的部分会按最小stop的color来渲染，大于最大stop的部分会按最大stop的color来渲染。
 
 参数（表8-78）：

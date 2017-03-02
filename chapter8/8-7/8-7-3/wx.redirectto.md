@@ -1,4 +1,4 @@
-##### wx.redirectTo(OBJECT)
+###wx.redirectTo(OBJECT)
 
 关闭当前页面，跳转到应用内的某个页面。
 

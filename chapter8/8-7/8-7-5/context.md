@@ -1,8 +1,8 @@
-####获取context对象
+##获取context对象
 
 绘图的第一步：创建一个Canvas绘图的上下文，也就是绘图的场景。小程序给我们提供了多种方法：
 
-#####wx.createCanvasContext(canvasId)
+###wx.createCanvasContext(canvasId)
 
 创建 canvas 绘图上下文（指定 canvasId）
 
@@ -25,11 +25,11 @@
 const ctx = wx.createCanvasContext('myCanvas')
 ```
 
-#####wx.createContext (不推荐使用)
+###wx.createContext (不推荐使用)
 创建并返回绘图上下文。
 使用方法与createCanvasContext类似，但是由于没有id，可能会导致混乱，所以不建议使用这种方法。
 
-#####drawCanvas (不推荐使用)
+###drawCanvas (不推荐使用)
 
 用所提供的 actions 在所给的 canvas-id 对应的 canvas 上进行绘图。
 
@@ -52,7 +52,7 @@ wx.drawCanvas({
 ```
 与讲解画布组件时的例子一样，使用“this.context.”来创建绘图动作，然后调用drawCanvas绘制。
 
-#####canvasToTempFilePath(OBJECT)
+###canvasToTempFilePath(OBJECT)
 把当前画布的内容导出生成图片，并返回文件路径
 
 OBJECT参数说明（表8-72）：

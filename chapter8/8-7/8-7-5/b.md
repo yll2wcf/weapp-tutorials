@@ -1,6 +1,6 @@
-####线条样式
+##线条样式
 
-#####setLineWidth
+###setLineWidth
 
 设置线条的宽度。
 
@@ -11,7 +11,7 @@
 | :--- | :--- | :--- |
 |lineWidth	|Number	|线条的宽度(单位是px)|
 
-#####setLineCap
+###setLineCap
 设置线条的端点样式。
 
 参数（表8-81）:
@@ -25,7 +25,7 @@
 * round: 向线条的每个末端添加圆形线帽。
 * square: 向线条的每个末端添加正方形线帽。
 
-#####setLineJoin
+###setLineJoin
 
 设置线条的交点样式。
 
@@ -88,7 +88,7 @@ Page({
 
 ![](/assets/8-22.png)图8-22
 
-#####setMiterLimit
+###setMiterLimit
 
 设置最大斜接长度，斜接长度指的是在两条线交汇处内角和外角之间的距离。 当 setLineJoin() 为 miter 时才有效。超过最大倾斜长度的，连接处将以 lineJoin 为 bevel 来显示。
 

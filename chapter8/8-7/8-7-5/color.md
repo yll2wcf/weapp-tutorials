@@ -1,6 +1,6 @@
-####颜色，样式，阴影
+##颜色，样式，阴影
 
-#####setFillStyle
+###setFillStyle
 
 设置填充色。如果没有设置 fillStyle，默认颜色为 black。
 
@@ -25,7 +25,7 @@ Page({
 运行结果（图8-17）：
 ![](/assets/8-17.png)图8-17
 
-#####setStrokeStyle
+###setStrokeStyle
 
 设置边框颜色。如果没有设置 fillStyle，默认颜色为 black。
 
@@ -52,7 +52,7 @@ Page({
 运行结果（图8-18）：
 ![](/assets/8-18.png)图8-18
 
-#####setShadow
+###setShadow
 设置阴影样式。如果没有设置，offsetX 默认值为0， offsetY 默认值为0， blur 默认值为0，color 默认值为 black。
 
 参数（表8-75）：
