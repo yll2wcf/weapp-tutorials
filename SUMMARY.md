@@ -41,7 +41,7 @@
       * [条件运算符](chapter3/3.2/3.2.6/条件运算符.md)
     * [3.2.7 条件判断](chapter3/3.2/3.2.7条件判断.md)
     * [3.2.8 循环语句](chapter3/3.2/3.2.8循环语句.md)
-      * [for循环](chapter3/3-2/3.2.8/for循环.md)
+      * [for循环](chapter3/3.2/3.2.8/for循环.md)
       * [while循环](chapter3/3.2/3.2.8/while循环.md)
     * [3.2.9 Map和Set](chapter3/3.2/3.2.9Map和Set.md)
       * [Map](chapter3/3.2/3.2.9/Map.md)
