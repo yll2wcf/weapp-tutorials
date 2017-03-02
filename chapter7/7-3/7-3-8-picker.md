@@ -110,7 +110,7 @@ Page({
 
 运行效果如图7-14所示：
 
-![](/assets/图7-14 picker组件示例运行效果图.png)
+![](/assets/图7-14picker组件示例运行效果图.png)
 
 图7-14 picker组件示例运行效果图
 

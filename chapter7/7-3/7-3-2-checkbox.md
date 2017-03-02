@@ -52,6 +52,6 @@ wxml中：
 
 运行效果如图7-8所示：
 
-![](/assets/图7-8 button组件示例运行效果图.png)
+![](/assets/图7-8button组件示例运行效果图.png)
 
 图7-8 button组件示例运行效果图
