@@ -53,6 +53,6 @@ Page(pageData)
 ```
 运行效果如图7-16所示：
 
-![](/assets/图7-16 switch组件示例运行效果图.png)
+![](/assets/图7-16switch组件示例运行效果图.png)
 
 图7-16 switch组件示例运行效果图

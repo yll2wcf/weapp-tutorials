@@ -58,7 +58,7 @@ Page({
 
 运行效果如图7-11所示：
 
-![](/assets/图7-11 textarea组件示例运行效果图.png)
+![](/assets/图7-11textarea组件示例运行效果图.png)
 
 图7-11 textarea组件示例运行效果图
 
