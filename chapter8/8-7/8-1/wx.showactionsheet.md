@@ -47,4 +47,4 @@ actionSheetTap: function () {
 
 运行结果（图8-8）：
 
-![](/assets/8-8.png)图8-8
+![](/assets/8-8.png)图8-8 ActionSheet示意图

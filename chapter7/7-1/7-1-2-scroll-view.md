@@ -92,7 +92,7 @@ wxss中：
 
 运行效果如图7-2所示：
 
-![](/assets/图7-2 scroll-view组件演示.png)
+![](/assets/图7-2scroll-view组件示例运行效果图.png)
 
 图7-2 scroll-view组件示例运行效果图
 
