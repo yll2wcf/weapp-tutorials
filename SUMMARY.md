@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [序](README.md)
 * [第一章 小程序介绍](chapter1.md)
   * [1.1 小程序是什么？](chapter1/1-1.md)
   * [1.2 小程序与订阅号、服务号的区别](chapter1/1-2.md)
