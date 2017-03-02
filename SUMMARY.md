@@ -67,7 +67,7 @@
     * [3.4.2 RegExp](chapter3/3.4/3.4.2RegExp.md)
     * [3.4.3 JSON](chapter3/3.4/3.4.3JSON.md)
     * [3.4.4 Math](chapter3/3.4/3.4.4Math.md)
-  * [本章总结](chapter3/本章总结.md)
+  * [本章小结](chapter3/本章小结.md)
 * [第四章 熟练掌握wxss和wxml](chapter4.md)
   * [4.1 WXML和HTML的差异](chapter4/4.1-wxmlhtml.md)
   * [4.2 WXML语法详解](chapter4/4-2-wxml.md)
