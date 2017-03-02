@@ -62,7 +62,7 @@
       * [filter函数](chapter3/3.3/3.3.4/filter函数.md)
       * [sort函数](chapter3/3.3/3.3.4/sort函数.md)
     * [3.3.5 箭头函数](chapter3/3.3/3.3.5箭头函数.md)
-  * [3-4 JavaScript标准对象](chapter3/3-4JavaScript标准对象.md)
+  * [3-4 JavaScript标准对象](chapter3/3.4JavaScript标准对象.md)
     * [3.4.1 Date](chapter3/3.4/3.4.1Date.md)
     * [3.4.2 RegExp](chapter3/3.4/3.4.2RegExp.md)
     * [3.4.3 JSON](chapter3/3.4/3.4.3JSON.md)
