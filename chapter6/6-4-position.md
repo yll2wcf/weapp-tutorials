@@ -12,88 +12,91 @@ position可能的值有：
 
 这里比较常用的为absolute与relative。
 
-我们来看一个例子，首先设置两个上下放置的view，背景分别设成红色与绿色，文字居中显示（如图6-10所示）。
+我们来看一个例子，首先在屏幕中间放置一个红色的view，文字居中显示（如图6-10所示）。
 
-![](/assets/P1.png)图6-10
+![](/assets/6-10.png)图6-10 position属性例图-初始布局
 
 这时的wxss设定为：
 
 ```css
+.center-view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%
+}
+
 .red{
   display:flex;
-  height: 400rpx;
+  height: 800rpx;
   background-color: red;
   width: 600rpx;
   justify-content: center;
   align-items: center;
-}
-
-.green{
-  display:flex;
-  height: 400rpx;
-  background-color: green;
-  width: 600rpx;
-  justify-content: center;
-  align-items: center;
+  color: #ffffff;
+  font-size: 40rpx;
 }
 ```
-然后我们想将绿色部分的文字改成一个白色的小方块，距离绿色的顶端与左端各100rpx，按照我们讲的，这种情况适合使用position属性，首先来看relative是否适用，我们将绿色的view里文字改成新的view：
+然后我们想在红色的view里添加一个绿的view，距离红色的顶端与左端各100rpx，按照我们讲的，这种情况适合使用position属性，首先来看relative是否适用，我们将绿色的view添加到红色view里：
 
 ```xml
-<view class="container">
-  <view class="red">red</view>
-  <view class="green">
-    <view class="white"></view>
+<view class="center-view">
+  <view class="red">red
+    <view class="green"/>
   </view>
-</view>
+</view> 
 ```
-然后设定白色view的属性为：
+然后设定绿色view的属性为：
 
 ```css
-.white{
-  height: 100rpx;
-  width: 100rpx;
+.green{
+  height: 200rpx;
+  background-color: green;
+  width: 200rpx;
   position: relative;
   top: 100rpx;
   left: 100rpx;
-  background-color: white;
 }
 ```
 我们来看下这样的结果是什么（如图6-11所示）：
-![](/assets/P2.png)图6-11
+![](/assets/6-11.png)图6-11 position属性例图-relative效果
 
-可以看到白色方块加入到了绿色布局里但是位置不对，这是因为我们在绿色view里设定了居中显示，所以根据relative的定义，这里的100rpx距离其实是距离中心的，而不是其父容器的。
+
+可以看到绿色方块加入到了红色布局里但是位置不对，这是因为我们在红色view里设定了居中显示，所以根据relative的定义，这里的100rpx距离其实是文字的，而不是其父容器的。
 
 接着我们把relative改成absolute试试看，结果是这样的（图6-12所示）：
 
-![](/assets/P3.png)图6-12
+![](/assets/6-12.png)图6-12 position属性例图-父布局缺失position属性情况
 
-我们发现白色方块消失了。
 
-其实方块并没有消失，而且被移动到了红色view的上方，消失在了背景之中。这是因为，根据absolute的定义，其相对的是第一个非static的父组件，而绿色的view因为没有设定position属性，所以使用默认值static，在系统渲染布局时，对于absolute属性不会根据绿色布局而是一直向上寻找不为static的父组件，最后设定为了相对于整个布局的位置。为了达到我们要的效果，这里我们为绿色的view添加position：relative的属性。
+我们发现绿色方块被移动到了红色view的上方，超出了红色view的范围。这是因为，根据absolute的定义，其相对的是第一个非static的父组件，而红色的view因为没有设定position属性，所以使用默认值static，在系统渲染布局时，对于absolute属性不会根据红色view而是一直向上寻找不为static的父组件，最后设定为了相对于整个布局的位置。为了达到我们要的效果，这里我们为红色的view添加position：relative的属性。
 
 ```css
-.green{
+.red{
   display:flex;
-  height: 400rpx;
-  background-color: green;
+  height: 800rpx;
+  background-color: red;
   width: 600rpx;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
+  font-size: 40rpx;
   position: relative;
 }
-.white{
-  height: 100rpx;
-  width: 100rpx;
+
+.green{
+  height: 200rpx;
+  background-color: green;
+  width: 200rpx;
   position: absolute;
   top: 100rpx;
   left: 100rpx;
-  background-color: white;
 }
 ```
 
 这样就得到了我们所要的布局样式（图6-13）：
 
-![](/assets/P4.png)图6-13
+![](/assets/6-13.png)图6-13 position属性例图-正确结果
+
 
 在设定组件的宽高时，可用的属性有：width，height，maxHeight，maxWidth，minHeight，minWidth。为了发挥flexbox动态改变组件宽高的特性，要尽量不指定组件的宽高，由系统根据组件的内容与设定的排列方式来动态的设定宽高。如果对宽高有要求，尽量设定其最大与最小值，以便其在一定范围内弹性改变（这也有利于配适不同尺寸的手机）。另外，如果必须要设定宽高，那么尽可能只设定其中一项，把另一项交给系统来设定。

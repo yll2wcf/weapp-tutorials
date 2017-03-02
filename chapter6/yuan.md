@@ -2,7 +2,8 @@
 
 子元素属性定义了伸缩项目的属性，如图6-7。
 
-![](/assets/6-7.png) 图6-7
+![](/assets/6-7.png) 图6-7 伸缩项目示意图
+
 
 对于下面的布局文件(.wxml)来说，子元素属性为child需要在格式文件(.wxss)中设定的属性，用来规定这个view(class="child")所独有的属性值。
 ```xml
@@ -35,7 +36,8 @@
 
 例如图6-8所示：
 
-![](/assets/6-8.png)图6-8
+![](/assets/6-8.png)图6-8 flex-grow示意图
+
 
 ##### flex-shrink
 
@@ -79,4 +81,5 @@
 
 例如在父组件alignItems为flex-start时，将子组件align-self设置为flex-end的示意图6-9。
 
-![](/assets/6-9.png) 图6-9
+![](/assets/6-9.png) 图6-9 flex-start示意图
+
