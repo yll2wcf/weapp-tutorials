@@ -1,7 +1,7 @@
-# 7-4-3 video
+# 7.4.3 video
 
-video视频，用来加入视频播放功能，使页面更加丰富。video标签认宽度300px、高度225px，设置宽高需要通过wxss设置width和height。  
-video所包含的属性，如表7-29所示：
+video 视频，用来加入视频播放功能，使页面更加丰富。video 标签认宽度300px、高度225px，设置宽高需要通过wxss设置width和height。  
+video 所包含的属性，如表7-29所示：
 
 表7-29
 
@@ -108,3 +108,8 @@ Page({
 ![](/assets/图7-19 video组件示例运行效果图.png)
 
 图7-19 video组件示例运行效果图
+
+**注意：**
+* `video`组件是由客户端创建的原生组件，它的层级是最高的。
+* 请勿在`scroll-view`中使用`video`组件。
+* css动画对`video`组件无效。
