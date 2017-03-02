@@ -1,7 +1,7 @@
-# 7-3-2 checkbox
+# 7.3.2 checkbox
 
 复选框,为用户提供一系列选项，用户可以选择多个。  
-checkbox-group多项选择器，内部由多个checkbox组成，如表7-10所示。
+checkbox-group 多项选择器，内部由多个 checkbox 组成，如表7-10所示。
 
 表7-10
 
@@ -15,10 +15,10 @@ checkbox多选项目，如表7-11所示。
 
 | 属性名 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
-| value | String |  | &lt; checkbox/&gt;标识，选中时触发&lt; checkbox-group/&gt;的 change 事件，并携带 &lt; checkbox/&gt; 的 value |
+| value | String |  | `<checkbox/>`标识，选中时触发`<checkbox-group/>`的 change 事件，并携带 `<checkbox/>`的 value |
 | disabled | Boolean | false | 是否禁用 |
 | checked | Boolean | false | 当前是否选中，可用来设置默认选中 |
-| color | Color |  | checkbox的颜色，同css的color |
+| color | Color |  | checkbox 的颜色，同css的color |
 
 示例代码：  
 wxml中：
