@@ -41,7 +41,7 @@ Page({
 ```
 
 运行结果如图8-32：
-![](/assets/8-32.png)图8-32
+![](/assets/8-32.png)图8-32 save/restore示例图
 
 ###draw
 将之前在绘图上下文中的描述（路径、变形、样式）画到canvas中。绘图上下文需要由wx.createCanvasContext(canvasId)来创建。
