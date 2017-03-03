@@ -1,6 +1,6 @@
 # Summary
 
-* [序](README.md)
+* [前言](README.md)
 * [第一章 小程序介绍](chapter1.md)
   * [1.1 小程序是什么](chapter1/1.1小程序是什么.md)
   * [1.2 小程序与订阅号、服务号的区别](chapter1/1.2小程序与订阅号、服务号的区别.md)
@@ -132,8 +132,8 @@
     * [7.4.2 audio](chapter7/7-4/7-4-2-audio.md)
     * [7.4.3 video](chapter7/7-4/7-4-3-video.md)
   * [7.5 地图组件](chapter7/7-5.md)
-  * [7-6 导航组件](chapter7/7-6.md)
-  * [7-7 画布组件](chapter7/7-7.md)
+  * [7.6 导航组件](chapter7/7-6.md)
+  * [7.7 画布组件](chapter7/7-7.md)
   * [7.8 客服会话按钮](chapter7/7-8.md)
   * [本章小结](chapter7/end.md)
 * [第八章 API接口](chapter8.md)
