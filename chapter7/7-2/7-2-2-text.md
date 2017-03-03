@@ -17,7 +17,7 @@ wxml中：
 </view>
 ```
 
-js中
+js中：
 
 ```js
 var initData = '我是第一行\n我是第二行\n我是第三行'
