@@ -162,7 +162,7 @@
     * [8.6.5 拨打电话](chapter8/8-6/8-6-5.md)
     * [8.6.6 扫码](chapter8/8-6/8-6-6.md)
   * [8.7 界面](chapter8/8-7.md)
-    * [8.7.1 交互反馈](chapter8/8-7/8-1.md)
+    * [8.7.1 交互反馈](chapter8/8-7/8.7.1交互反馈.md)
       * [wx.showToast](chapter8/8-7/8-1/wx.showtoast.md)
       * [wx.hideToast](chapter8/8-7/8-1/wx.hidetoast.md)
       * [wx.showModal](chapter8/8-7/8-1/wx.showmodal.md)
