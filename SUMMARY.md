@@ -167,7 +167,7 @@
       * [wx.hideToast](chapter8/8-7/8-7-1/wx.hidetoast.md)
       * [wx.showModal](chapter8/8-7/8-7-1/wx.showmodal.md)
       * [wx.showActionSheet](chapter8/8-7/8-7-1/wx.showactionsheet.md)
-    * [8.7.2 设置导航条](chapter8/8-7/8-2.md)
+    * [8.7.2 设置导航条](chapter8/8-7/8.7.2设置导航条.md)
     * [8.7.3 导航](chapter8/8-7/8-7-3.md)
       * [wx.navigateTo](chapter8/8-7/8-7-3/wx.navigateto.md)
       * [wx.redirectTo](chapter8/8-7/8-7-3/wx.redirectto.md)
